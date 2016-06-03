@@ -1,0 +1,444 @@
+  /* 
+   Stylesheet for OU Libraries Intranet //
+  
+   Table of Contents
+   - - - - - - - - -
+   General Styles
+   Global Footer
+   Social Media Icons
+   Banner
+   Library Logo
+   Navigation Bar
+   Menus
+   Headings
+   Region-Top
+   - - - - - - - - -
+ */
+ 
+
+ 
+ /**
+ * General Styles
+ */
+
+html,body{
+    height: 100%;
+	background-color: #fff;
+	font-family: 'Droid Sans'; 
+	font-weight: normal;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.table thead>tr>th, .table tbody>tr>th, .table tfoot>tr>th, .table thead>tr>td, .table tbody>tr>td, .table tfoot>tr>td {
+    border-top: 1px dashed #cecece;
+}
+
+.whitebg {
+	background-color: #fff;	
+	margin-bottom: 25px;
+}
+
+a {
+    color: #2378aa;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover, a:focus {
+    color: #254467;
+    text-decoration: underline;
+}
+
+img{
+	height: auto;
+    max-width: 100%;
+} 
+
+ 
+
+ /**
+ * Global Footer
+ */	
+ 
+.footer{
+    background-color: #333;
+    color: #999;
+    font-size: 1em;
+    line-height: 1.2em;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-top: 7px solid #1f1f1f;
+	min-height: 100%; 
+    width: 100%;
+	margin-top:0;
+}
+
+.footer a{
+    color: #ececec !important;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer ul{ margin: 0; padding: 0;}
+
+.footer li{
+    list-style: none;
+}
+
+.footer img{
+	float: left;
+	padding-right: 1em;
+}
+
+@media (max-width: 750px) {
+.anniversary-logo img {
+	padding-top: 25px;
+	padding-bottom: 10px;
+  }
+}
+
+
+
+ /**
+ * Social Media Icons
+ */	
+
+.social ul{
+    display: block;
+}
+
+.social ul li a.facebook,
+.social ul li a.twitter,
+.social ul li a.youtube,
+.social ul li a.pinterest{
+    display: block; 
+    height: 45px;
+    width: 45px;
+    float: left;
+}
+
+.social ul li a {
+    background-image: url(https://lib.ou.edu/documents/social-icons.png);
+    background-repeat:no-repeat;
+	line-height:0;
+	margin-right:5px;
+}
+
+.social ul li a.facebook{ 
+	background-position:0 0; 
+}
+
+.social ul li a.facebook:hover{ 
+	background-position:-46px 0; 
+}
+
+.social ul li a.twitter{ 
+	background-position:0 -46px; 
+}
+
+.social ul li a.twitter:hover{ 
+	background-position:-46px -46px; 
+}
+
+.social ul li a.youtube{ 
+	background-position: 0 -92px; 
+}
+
+.social ul li a.youtube:hover{ 
+	background-position: -46px -92px; 
+}
+
+.social ul li a.pinterest{ 
+	background-position: 0 -276px; 
+}
+
+.social ul li a.pinterest:hover{ 
+	background-position: -46px -276px; 
+}
+
+.contact_icons{
+	float: left;
+}
+
+
+
+/**
+* Banner
+*/
+
+.header{
+    background-color: #cecece;
+    min-height: 140px;
+    padding: 0 0 0 0;
+}
+
+.header img {
+	padding-left: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+
+ /**
+ * Library Logo
+ */
+ 
+.logo img{
+	height: auto;
+    max-width: 100%;
+	padding-top: 10px;
+}
+
+
+
+ /**
+ * Navigation Bar
+ */
+
+.navbar {
+	background-color:#3d3d3d;
+	font-size: 1.3em;
+	font-weight: bold;
+	letter-spacing: .05em;
+	width: 100%;
+	border-radius: 0;
+	border: 0px solid #3d3d3d;
+	box-shadow: 0px 5px 5px #bbb; 
+	-moz-box-shadow: 0px 5px 5px #bbb; 
+	-webkit-box-shadow: 0px 5px 5px #bbb; 
+	-o-box-shadow: 0px 5px 5px #bbb;
+}
+
+
+/* responsive text queries 
++
++
++
+*/
+
+@media screen and (max-width: 992px) {
+.navbar {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.navbar {
+    font-size: 11px;
+  }
+ 
+}
+
+.navbar-default {
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+}
+
+.navbar-default .navbar-link {
+    color: #ececec;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ececec;
+    background-color: #3d3d3d;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #ececec;
+    background-color: #3d3d3d;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ececec;
+	border-bottom: 10px solid #3d3d3d;
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+		
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #ececec;
+    background-color: #3d3d3d;
+}
+	
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ececec;
+	border-bottom: 10px solid #428bca;
+	background-color: #2a2a2a;
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #ececec;
+	border-bottom: 10px solid #428bca;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #ececec;
+    background-color: #2a2a2a;
+	border-bottom: 10px solid #428bca;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+    color: #ececec;
+	border: 1px solid #000;
+    background-color: #3d3d3d;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #2a2a2a;
+    border: 0;
+	position: relative;
+    float: right;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+	color: #660000;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #2a2a2a;
+	border: 0;
+	color: #660000;
+}
+
+.navbar-collapse {
+    max-height: 500px; /* fixes the vertical scrollbar issue upon collapse */
+	overflow-x: hidden;
+	text-align: center;
+}
+
+.navbar-toggle .icon-bar {
+    color: #428bca;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    color: #428bca;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus {
+    color: #428bca;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+
+
+ /**
+ * Menus
+ */
+
+.nav>li>a:hover {
+    background-color: transparent;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+ul.menu.nav{
+	line-height: 1em;
+}
+
+
+
+
+ /**
+ * Headings
+ */
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h1.page-header {
+	padding: 10px;
+	margin: 40px 0 20px 0;
+	color: #fff;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+	background-color: #2c2c2c;
+	border-radius: 5px 5px 5px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-weight: 1em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+/**
+ * Region-Top
+ */
+
+#top_regions{
+	background: rgb(226,226,226); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(226,226,226,1) 0%, rgba(245,245,245,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,1)), color-stop(100%,rgba(245,245,245,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(245,245,245,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(245,245,245,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(245,245,245,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(245,245,245,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-9 */
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	width: 100%;
+	margin:0px;
+}
+
+#top_regions .col-md-5, #top_regions .col-md-7 {
+	padding:0px;
+}
+
+#top_regions .container-fluid {
+	padding:0px;
+}
+
+#top_regions .row {
+	margin:0px;
+	padding:0px;
+}

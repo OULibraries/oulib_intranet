@@ -1,0 +1,422 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* GLOBAL HEADER
+
+----------------------------------------- */
+
+.global_header {
+
+    background-color: #333;
+
+}
+
+
+
+.global_header ul {
+
+    height:30px;
+
+    float:right;
+
+	list-style:none;
+
+	padding:0;
+
+	margin:0;
+
+    padding-right: 40px;
+
+}
+
+.global_header ul::after  {
+
+    content:"";
+
+    display:block;
+
+    width:100%;
+
+}
+
+.global_header ul li { float:left;}
+
+.global_header ul li a.home,
+
+.global_header ul li a.search,
+
+.global_header ul li a.social {
+
+    display:block; 
+
+    height:30px;
+
+    width:30px;
+
+}
+
+.global_header ul li a {
+
+    background-image: url(../img/ou-globalheader-icons.png);
+
+    background-repeat:no-repeat;
+
+	line-height:0;
+
+}
+
+.global_header ul li a.home { background-position:0 0; }
+
+.global_header ul li a.home:hover { background-position:0 -30px; }
+
+.global_header ul li a.search { background-position:-30px 0; }
+
+.global_header ul li a.search:hover { background-position:-30px -30px; }
+
+.global_header ul li a.social { background-position:-60px 0; }
+
+.global_header ul li a.social:hover { background-position:-60px -30px; }
+
+.global_header ul li a:hover { background-color:#e8e8e8; }
+
+.global_header ul li.wordmark {
+
+    text-indent:-99999px;
+
+    width:200px;
+
+    height:30px;
+
+    margin-left:1em;
+
+    background-image:url(../img/ou-globalheader-wordmark.png);
+
+    background-repeat:no-repeat;
+
+    background-position:center center;
+
+}
+
+
+@media only screen and (max-width: 479px) {
+
+    .global_header ul li.wordmark {
+
+        display: none;
+
+    }
+
+}
+
+
+a.tip { position:relative; }
+a.tip span { display: none; }
+/* the span will display just on :hover state */
+a.tip:hover span { 
+    position:absolute;
+    z-index:25;
+    top:135%; 
+    left:-3.75em;  
+    width:10em;
+    display:block;
+    margin:0;
+    padding:1.25em 0 0.85em;
+    border:1px solid #444;
+    background-image:url(../img/ou-global_header-tipbg.gif);
+    background-repeat:repeat;
+    white-space:nowrap;
+    text-align: center;
+    color:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.75em;
+}
+/* the arrow */
+a.tip:hover span::before {
+    content:"";
+    width:100%;
+    display:block;
+    background-image:url(../img/ou-global_header-tiparrow.png);
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-position:top center;
+    bottom:100%;
+    left:0;
+    height:9px;
+    position:absolute;
+}
+
+.header{
+    background-color: #cecece;
+	min-height: 200px;
+	display:block;
+	
+}
+
+.header img {
+	height: auto;
+    max-width: 100%;
+	text-align: center;
+	margin:auto;
+	display:block;
+
+}
+
+.footer{
+
+    background-color: #333;
+    color: #999;
+    font-size: 1em;
+    line-height: 1.2em;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-top: 10px solid #1f1f1f;
+
+}
+
+
+.footer a{
+    color: #ececec !important;
+    text-decoration: none;
+
+}
+
+
+
+.footer a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.footer ul{ margin: 0; padding: 0;}
+
+
+
+.footer li{
+
+    list-style: none;
+
+}
+
+.footer img{
+	float: left;
+	padding-right: 1em;
+
+	}
+
+
+
+/* Social Icons */
+
+.social ul{
+
+    display: block;
+
+}
+
+
+
+.social ul li a.facebook,
+
+.social ul li a.twitter,
+
+.social ul li a.youtube,
+
+.social ul li a.instagram
+
+ {
+
+    display:block; 
+    height:45px;
+    width:45px;
+    float:left;
+
+}
+
+
+
+.social ul li a {
+    background-image: url(https://lib.ou.edu/documents/social-icons.png);
+    background-repeat:no-repeat;
+	line-height:0;
+	margin-right:5px;
+
+}
+
+
+
+.social ul li a.facebook { background-position:0 0; }
+
+.social ul li a.facebook:hover { background-position:-46px 0; }
+
+.social ul li a.twitter { background-position:0 -46px; }
+
+.social ul li a.twitter:hover { background-position:-46px -46px; }
+
+.social ul li a.youtube { background-position: 0 -92px; }
+
+.social ul li a.youtube:hover { background-position: -46px -92px; }
+
+.social ul li a.instagram { background-position: 0 -276px; }
+
+.social ul li a.instagram:hover { background-position: -46px -276px; }
+
+
+
+
+
+/* ==========================================================================
+
+   Media Queries
+
+   ========================================================================== */
+
+
+
+@media only screen and (min-width: 35em) {
+
+
+
+}
+
+
+
+@media print,
+
+       (-o-min-device-pixel-ratio: 5/4),
+
+       (-webkit-min-device-pixel-ratio: 1.25),
+
+       (min-resolution: 120dpi) {
+
+
+
+}
+
+
+
+/* ==========================================================================
+
+   Helper classes
+
+   ========================================================================== */
+
+
+
+.ir {
+
+    background-color: transparent;
+
+    border: 0;
+
+    overflow: hidden;
+
+    *text-indent: -9999px;
+
+}
+
+
+
+.ir:before {
+
+    content: "";
+
+    display: block;
+
+    width: 0;
+
+    height: 150%;
+
+}
+
+
+
+.hidden {
+
+    display: none !important;
+
+    visibility: hidden;
+
+}
+
+
+
+.visuallyhidden {
+
+    border: 0;
+
+    clip: rect(0 0 0 0);
+
+    height: 1px;
+
+    margin: -1px;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    position: absolute;
+
+    width: 1px;
+
+}
+
+
+
+.visuallyhidden.focusable:active,
+
+.visuallyhidden.focusable:focus {
+
+    clip: auto;
+
+    height: auto;
+
+    margin: 0;
+
+    overflow: visible;
+
+    position: static;
+
+    width: auto;
+
+}
+
+
+
+.invisible {
+
+    visibility: hidden;
+
+}
+
+
+
+.clearfix:before,
+
+.clearfix:after {
+
+    content: " ";
+
+    display: table;
+
+}
+
+
+
+.clearfix:after {
+
+    clear: both;
+
+}
+
+
+
+.clearfix {
+
+    *zoom: 1;
+
+}
