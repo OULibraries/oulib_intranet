@@ -2,7 +2,11 @@
    Stylesheet for OU Libraries Intranet //
   
    Table of Contents
+   
    - - - - - - - - -
+   
+   MAIN INTRANET
+   
    General Styles
    Global Footer
    Social Media Icons
@@ -12,10 +16,25 @@
    Menus
    Headings
    Region-Top
+   
+   -----
+   
+   STATS
+   
+   -----
+   
+   DOCS & FORMS
+   
    - - - - - - - - -
  */
  
-
+ 
+ 
+ /** ---------------------------
+ 
+ 
+ * MAIN INTRANET
+ */
  
  /**
  * General Styles
@@ -71,10 +90,7 @@ img{
     color: #999;
     font-size: 1em;
     line-height: 1.2em;
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-top: 2% 15% 2% 15%;
 	border-top: 7px solid #1f1f1f;
 	min-height: 100%; 
     width: 100%;
@@ -103,8 +119,7 @@ img{
 
 @media (max-width: 750px) {
 .anniversary-logo img {
-	padding-top: 25px;
-	padding-bottom: 10px;
+	padding: 25px 0 10px 0;
   }
 }
 
@@ -129,7 +144,7 @@ img{
 }
 
 .social ul li a {
-    background-image: url(https://lib.ou.edu/documents/social-icons.png);
+    background-image: url(../img/social-icons.png);
     background-repeat:no-repeat;
 	line-height:0;
 	margin-right:5px;
@@ -219,26 +234,6 @@ img{
 	-moz-box-shadow: 0px 5px 5px #bbb; 
 	-webkit-box-shadow: 0px 5px 5px #bbb; 
 	-o-box-shadow: 0px 5px 5px #bbb;
-}
-
-
-/* responsive text queries 
-+
-+
-+
-*/
-
-@media screen and (max-width: 992px) {
-.navbar {
-    font-size: 90%;
-  }
-}
-
-@media screen and (max-width: 991px) {
-.navbar {
-    font-size: 11px;
-  }
- 
 }
 
 .navbar-default {
@@ -348,6 +343,25 @@ img{
     }
 }
 
+/* responsive text queries 
++
++
++
+*/
+
+@media screen and (max-width: 992px) {
+.navbar {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.navbar {
+    font-size: 11px;
+  }
+ 
+}
+
 
 
  /**
@@ -366,7 +380,6 @@ img{
 ul.menu.nav{
 	line-height: 1em;
 }
-
 
 
 
@@ -442,3 +455,21 @@ h4 {
 	margin:0px;
 	padding:0px;
 }
+
+
+
+
+
+ /** ---------------------------
+
+ * STATS
+ */
+ 
+
+ 
+ 
+ 
+  /** ---------------------------
+
+ * DOCS & FORMS
+ */
