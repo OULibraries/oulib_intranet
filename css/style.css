@@ -25,6 +25,14 @@
    
    DOCS & FORMS
    
+   -----
+   
+   HOMEPAGE
+   
+   -----
+   
+   EMPLOYEE DIRECTORY/PROFILE
+   
    - - - - - - - - -
  */
  
@@ -64,7 +72,7 @@ html,body{
 }
 
 a {
-    color: #2378aa;
+    color: #7fa5bc;
     text-decoration: none;
 	font-weight: bold;
 }
@@ -473,6 +481,23 @@ h4 {
 HOMEPAGE
 **/
 
+
+ /** ---------------------------
+ * STATS
+ */
+ 
+ 
+ 
+  /** ---------------------------
+ * DOCS & FORMS
+ */
+ 
+ 
+ 
+ /** --------------------------
+HOMEPAGE
+**/
+
 #homepage h2 {
 	color:#767676;
 	text-transform:uppercase;
@@ -552,11 +577,13 @@ HOMEPAGE
 	color:#a3d4f2;
 }
 
+
+
 /**
- * Employee Directory
+ * EMPLOYEE DIRECTORY/PROFILE
  */
  
-.employee-profile{
+.content-border{
 	padding: 15px;
     background-color: #fff;
     border: 1px solid #c9c9c9;
@@ -585,6 +612,7 @@ HOMEPAGE
 	border-radius: 4px;
 	margin-bottom: 10px;
 	text-align: center;
+	color: #fff;
 }
 
 .employee-profile-sidebar h2{
@@ -592,7 +620,7 @@ HOMEPAGE
 	color: #fff;
 	font-size: 2em;
     background-color: #3d3d3d;
-	border-radius: 4px;
+	border-radius: 5px;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	text-align: center;
@@ -601,7 +629,24 @@ HOMEPAGE
 .employee-profile-name{
 	 font-size: 3.2em;
 	 font-weight: bold;
-	 color: #848484;
+	 color: #274557;
+	 background-color: #d8ebf7;
+	 border-radius: 5px;
+	 padding: 5px; 
+	 text-align: center;
+}
+
+.employee-profile-title{
+	 font-size: 1.4em;
+	 font-weight: bold;
+	 color: #282828;
+	 margin-bottom: 10px;
+	 text-align: center;
+}
+
+.employee-profile-icons{
+	margin: -10px 10px 0 0;
+	color: #848484;
 }
 
 .employee-profile-title{
@@ -609,5 +654,4 @@ HOMEPAGE
 	 font-weight: bold;
 	 color: #282828;
 	 margin-bottom: 10px;
-
 }
