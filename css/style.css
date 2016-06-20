@@ -465,6 +465,22 @@ h4 {
 }
 
 
+ /** ---------------------------
+ * STATS
+ */
+ 
+ 
+ 
+  /** ---------------------------
+ * DOCS & FORMS
+ */
+ 
+ 
+ 
+ /** --------------------------
+HOMEPAGE
+**/
+
 
  /** ---------------------------
  * STATS
@@ -630,4 +646,12 @@ HOMEPAGE
 
 .employee-profile-icons{
 	margin: -10px 10px 0 0;
+	color: #848484;
+}
+
+.employee-profile-title{
+	 font-size: 1.7em;
+	 font-weight: bold;
+	 color: #282828;
+	 margin-bottom: 10px;
 }
