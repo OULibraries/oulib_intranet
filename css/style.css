@@ -1,4 +1,4 @@
-  /* 
+/* 
    Stylesheet for OU Libraries Intranet //
   
    Table of Contents
@@ -24,6 +24,14 @@
    -----
    
    DOCS & FORMS
+   
+   -----
+   
+   HOMEPAGE
+   
+   -----
+   
+   EMPLOYEE DIRECTORY/PROFILE
    
    - - - - - - - - -
  */
@@ -64,7 +72,7 @@ html,body{
 }
 
 a {
-    color: #2378aa;
+    color: #7fa5bc;
     text-decoration: none;
 	font-weight: bold;
 }
@@ -458,18 +466,168 @@ h4 {
 
 
 
-
-
  /** ---------------------------
-
  * STATS
  */
- 
-
  
  
  
   /** ---------------------------
-
  * DOCS & FORMS
  */
+ 
+ 
+ 
+ /** --------------------------
+HOMEPAGE
+**/
+
+#homepage h2 {
+	color:#767676;
+	text-transform:uppercase;
+	margin:10px 0px 20px 0px;
+}
+
+#homepage li {
+	margin:5px 0px 5px 0px;
+	color:#94c2dc;
+}
+
+.section-border{
+    padding: 10px 10px 20px 50px;
+    border: 1px solid #c9c9c9;
+    box-shadow: 2px 2px 4px #eaeaea;
+    margin: 0px 0px 15px 0px;
+}
+
+.viewmore-link {
+    border-radius: 60px;
+	background-color:#2a8ac4;
+    border: 1px solid #2a8ac4;
+    text-align: center;
+    padding: 5px;
+	color:#fffff;
+}
+.viewmore {
+	color:#ffffff;
+	margin-top: 20px;
+}
+
+.viewmore a{
+	color:#ffffff;
+	font-size:.8em;
+}
+
+#homepage .homepage-icons {
+	margin:-10px 10px 0px 0px;
+}
+
+#homepage .sidebar {
+	background-color:#282828;
+	padding:0px 0px 20px 0px;
+}
+
+#homepage .sidebar h2 {
+	color:#ffffff;
+	border-radius: 5px;
+	background-color:#3d3d3d;
+	padding:10px;
+	text-align:center;
+	margin:30px 20px 20px 20px;
+}
+.sidebar-center {
+	text-align:center;
+}
+
+.sidebar .viewmore-link {
+    border-radius: 60px;
+	background-color:#505050;
+    border: 1px solid #505050;
+    text-align: center;
+    padding: 5px;
+	color:#fffff;
+}
+.sidebar .viewmore {
+	color:#ffffff;
+	margin-top: 20px;
+}
+
+.sidebar .viewmore a{
+	color:#ffffff;
+	font-size:.8em;
+}
+
+.sidebar .sidebar-links a{
+	color:#a3d4f2;
+}
+
+
+
+/**
+ * EMPLOYEE DIRECTORY/PROFILE
+ */
+ 
+.content-border{
+	padding: 15px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #eaeaea;
+	margin-bottom: 10px;
+}
+
+.employee-profile-coverphoto{
+	padding: 15px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+	margin-bottom: 10px;
+}
+
+.employee-profile-userphoto img{
+	padding: 5px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+	margin-bottom: 10px;
+}
+ 
+.employee-profile-sidebar{
+	padding: 15px;
+    background-color: #282828;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+.employee-profile-sidebar h2{
+	padding: 10px;
+	color: #fff;
+	font-size: 2em;
+    background-color: #3d3d3d;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.employee-profile-name{
+	 font-size: 3.2em;
+	 font-weight: bold;
+	 color: #274557;
+	 background-color: #d8ebf7;
+	 border-radius: 5px;
+	 padding: 5px; 
+	 text-align: center;
+}
+
+.employee-profile-title{
+	 font-size: 1.4em;
+	 font-weight: bold;
+	 color: #282828;
+	 margin-bottom: 10px;
+	 text-align: center;
+}
+
+.employee-profile-icons{
+	margin: -10px 10px 0 0;
+}
