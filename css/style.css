@@ -445,10 +445,6 @@ h4 {
 	font-size:.8em;
 }
 
-.sidebar {
-	background-color:#282828;
-	padding:0px 0px 20px 0px;
-}
 
 /**
  * Region-Top
@@ -483,6 +479,40 @@ h4 {
 	padding:0px;
 }
 
+/**
+ * Sidebar global
+ */
+ 
+ .sidebar {
+	background-color:#282828;
+	padding:0px 0px 20px 0px;
+	color: #ffffff;
+}
+
+.sidebar-center {
+	text-align:center;
+}
+
+.sidebar .viewmore-link {
+    border-radius: 60px;
+	background-color:#505050;
+    border: 1px solid #505050;
+    text-align: center;
+    padding: 5px;
+	color:#fffff;
+}
+.sidebar .viewmore {
+	margin-top: 20px;
+}
+
+.sidebar .viewmore a{
+	color:#ffffff;
+	font-size:.8em;
+}
+
+.sidebar a{
+	color:#a3d4f2;
+}
 
  /** ---------------------------
  * STATS
@@ -500,7 +530,6 @@ h4 {
 HOMEPAGE
 **/
 
-
 #homepage li {
 	margin:5px 0px 10px 0px;
 	font-weight:bold;
@@ -510,33 +539,6 @@ HOMEPAGE
 #homepage .homepage-icons {
 	margin:-10px 10px 0px 0px;
 }
-
-.sidebar-center {
-	text-align:center;
-}
-
-.sidebar .viewmore-link {
-    border-radius: 60px;
-	background-color:#505050;
-    border: 1px solid #505050;
-    text-align: center;
-    padding: 5px;
-	color:#fffff;
-}
-.sidebar .viewmore {
-	color:#ffffff;
-	margin-top: 20px;
-}
-
-.sidebar .viewmore a{
-	color:#ffffff;
-	font-size:.8em;
-}
-
-.sidebar .sidebar-links a{
-	color:#a3d4f2;
-}
-
 
 
 /**
@@ -615,3 +617,4 @@ HOMEPAGE
 	 color: #282828;
 	 margin-bottom: 10px;
 }
+
