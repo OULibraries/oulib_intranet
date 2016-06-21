@@ -585,12 +585,12 @@ HOMEPAGE
  */
  
 .content-border{
-	padding: 15px;
     background-color: #fff;
     border: 1px solid #c9c9c9;
 	border-radius: 4px;
 	box-shadow: 2px 2px 4px #eaeaea;
 	margin-bottom: 10px;
+	padding: 15px 15px 15px 25px;
 }
 
 .employee-profile-coverphoto{
@@ -616,7 +616,7 @@ HOMEPAGE
 	color: #fff;
 }
 
-.employee-profile-sidebar h2{
+.sidebar h2{
 	padding: 10px;
 	color: #fff;
 	font-size: 2em;
