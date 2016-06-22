@@ -412,10 +412,9 @@ h1.page-header {
 }
 
 h2 {
-	font-size: 1.5em;
 	font-weight: bold;
-	margin-bottom: 10px;
-	color:#767676;
+	margin: 15px;
+	color: #767676;
 	text-transform:uppercase;
 }
 
@@ -487,6 +486,7 @@ h4 {
 	background-color:#282828;
 	padding:0px 0px 20px 0px;
 	color: #ffffff;
+	border-radius: 5px;
 }
 
 .sidebar-center {
@@ -567,15 +567,6 @@ HOMEPAGE
     border: 1px solid #c9c9c9;
 	margin-bottom: 10px;
 }
- 
-.employee-profile-sidebar{
-	padding: 15px;
-    background-color: #282828;
-	border-radius: 4px;
-	margin-bottom: 10px;
-	text-align: center;
-	color: #fff;
-}
 
 .sidebar h2{
 	padding: 10px;
@@ -589,7 +580,7 @@ HOMEPAGE
 }
 
 .employee-profile-name{
-	 font-size: 3.2em;
+	 font-size: 3em;
 	 font-weight: bold;
 	 color: #274557;
 	 background-color: #d8ebf7;
@@ -617,4 +608,3 @@ HOMEPAGE
 	 color: #282828;
 	 margin-bottom: 10px;
 }
-
