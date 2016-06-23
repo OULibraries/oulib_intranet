@@ -412,9 +412,10 @@ h1.page-header {
 }
 
 h2 {
-	font-size: 1.5em;
 	font-weight: bold;
-	margin-bottom: 10px;
+	margin: 15px;
+	color: #767676;
+	text-transform:uppercase;
 }
 
 h3 {
@@ -429,6 +430,19 @@ h4 {
 	margin-bottom: 10px;
 }
 
+.viewmore-link {
+    border-radius: 60px;
+	background-color:#2a8ac4;
+    border: 1px solid #2a8ac4;
+    text-align: center;
+    padding: 5px;
+	color:#fffff;
+}
+
+.viewmore a{
+	color:#ffffff;
+	font-size:.8em;
+}
 
 
 /**
@@ -464,94 +478,17 @@ h4 {
 	padding:0px;
 }
 
-
- /** ---------------------------
- * STATS
+/**
+ * Sidebar global
  */
  
- 
- 
-  /** ---------------------------
- * DOCS & FORMS
- */
- 
- 
- 
- /** --------------------------
-HOMEPAGE
-**/
-
-
- /** ---------------------------
- * STATS
- */
- 
- 
- 
-  /** ---------------------------
- * DOCS & FORMS
- */
- 
- 
- 
- /** --------------------------
-HOMEPAGE
-**/
-
-#homepage h2 {
-	color:#767676;
-	text-transform:uppercase;
-	margin:10px 0px 20px 0px;
-}
-
-#homepage li {
-	margin:5px 0px 10px 0px;
-	font-weight:bold;
-	
-}
-
-.section-border{
-    padding: 10px 10px 20px 50px;
-    border: 1px solid #c9c9c9;
-    box-shadow: 2px 2px 4px #eaeaea;
-    margin: 0px 0px 15px 0px;
-}
-
-.viewmore-link {
-    border-radius: 60px;
-	background-color:#2a8ac4;
-    border: 1px solid #2a8ac4;
-    text-align: center;
-    padding: 5px;
-	color:#fffff;
-}
-.viewmore {
-	color:#ffffff;
-	margin-top: 20px;
-}
-
-.viewmore a{
-	color:#ffffff;
-	font-size:.8em;
-}
-
-#homepage .homepage-icons {
-	margin:-10px 10px 0px 0px;
-}
-
-#homepage .sidebar {
+ .sidebar {
 	background-color:#282828;
 	padding:0px 0px 20px 0px;
+	color: #ffffff;
+	border-radius: 5px;
 }
 
-#homepage .sidebar h2 {
-	color:#ffffff;
-	border-radius: 5px;
-	background-color:#3d3d3d;
-	padding:10px;
-	text-align:center;
-	margin:30px 20px 20px 20px;
-}
 .sidebar-center {
 	text-align:center;
 }
@@ -565,7 +502,6 @@ HOMEPAGE
 	color:#fffff;
 }
 .sidebar .viewmore {
-	color:#ffffff;
 	margin-top: 20px;
 }
 
@@ -574,10 +510,35 @@ HOMEPAGE
 	font-size:.8em;
 }
 
-.sidebar .sidebar-links a{
+.sidebar a{
 	color:#a3d4f2;
 }
 
+ /** ---------------------------
+ * STATS
+ */
+ 
+ 
+ 
+  /** ---------------------------
+ * DOCS & FORMS
+ */
+ 
+ 
+ 
+ /** --------------------------
+HOMEPAGE
+**/
+
+#homepage li {
+	margin:5px 0px 10px 0px;
+	font-weight:bold;
+	
+}
+
+#homepage .homepage-icons {
+	margin:-10px 10px 0px 0px;
+}
 
 
 /**
@@ -606,15 +567,6 @@ HOMEPAGE
     border: 1px solid #c9c9c9;
 	margin-bottom: 10px;
 }
- 
-.employee-profile-sidebar{
-	padding: 15px;
-    background-color: #282828;
-	border-radius: 4px;
-	margin-bottom: 10px;
-	text-align: center;
-	color: #fff;
-}
 
 .sidebar h2{
 	padding: 10px;
@@ -628,7 +580,7 @@ HOMEPAGE
 }
 
 .employee-profile-name{
-	 font-size: 3.2em;
+	 font-size: 3em;
 	 font-weight: bold;
 	 color: #274557;
 	 background-color: #d8ebf7;
