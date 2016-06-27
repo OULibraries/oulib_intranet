@@ -413,7 +413,6 @@ h1.page-header {
 
 h2 {
 	font-weight: bold;
-	margin: 15px;
 	color: #767676;
 	text-transform:uppercase;
 }
@@ -484,7 +483,6 @@ h4 {
  
  .sidebar {
 	background-color:#282828;
-	padding:0px 0px 20px 0px;
 	color: #ffffff;
 	border-radius: 5px;
 }
@@ -513,6 +511,9 @@ h4 {
 .sidebar a{
 	color:#a3d4f2;
 }
+
+.view .date-nav-wrapper .date-prev
+{right:79px;}
 
  /** ---------------------------
  * STATS
