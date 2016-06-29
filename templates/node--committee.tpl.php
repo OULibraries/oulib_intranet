@@ -88,8 +88,8 @@
 		<h1><div><?php print render($content['field_image']);?></div></h1>	
 		</div>
 	<div class="col-md-9"> 
-		<h2><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2> 
-		<h1><?php print render($content['body']); ?></h1>
+		<h2><?php print $title_attributes; ?><?php print $title; ?></h2> 
+		<p><?php print render($content['body']); ?></p>
 		<p><?php print render($content['field_charter']); ?></p>
 		<p><?php print render($content['field_members']); ?></p>
 	</div>
