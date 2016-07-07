@@ -82,14 +82,16 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <div class="row">
-	<div class="col-md-12 margin-fix">
-		<h1><?php print render($content['field_alert_date']); ?></h1>
-		<div class="bg-info"><h1><?php print render($content['field_status']); ?></h1></div>
-		
-		<div style="clear:both;"></div>
-		
+	<div class="col-md-6 content-border">
+		<h1><?php print render($content['field_status']); ?></h1>
+		<p>Alert Status</p></div>			
+	</div>
+  </div>
+  <div class="row">
+	<div class="col-md-6">
+		<h2><?php print render($content['field_alert_date']); ?></h2>	
 		<hr>
-		<?php print render($content['field_short_description']); ?>
+		<h3><?php print render($content['field_short_description']); ?></h3>
 		
 							
 	</div>
