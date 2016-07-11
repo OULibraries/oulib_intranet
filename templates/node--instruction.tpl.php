@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * Default theme implementation to display a node.
@@ -81,24 +82,129 @@
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  <div class="row">
-	<div class="col-md-6 content-border">
-		<h1><?php print render($content['field_status']); ?></h1>
-		<p>Alert Status</p></div>			
+<div>
+<h1><?php print render($content['field_bi_date']); ?></h1>
+  <div class="row content-border">
+	<div class="col-md-12">
+		<h2>Library Instructor</h2>	
+			<div>
+				<?php print render($content['field_instructor']); ?>
+				<?php print render($content['field_department']); ?>
+			</div>
 	</div>
   </div>
-  <div class="row">
+   <div class="row content-border">
+	<div class="col-md-12">
+		<h2>Course Details</h2>	
+			<div>
+				<?php print render($content['field_course_instructor']); ?>
+				<?php print render($content['field_course_instructor_s_email']); ?>
+				<?php print render($content['field_course_number']); ?>
+				<?php print render($content['field_department_code']); ?>
+				<?php print render($content['field_interaction_type']); ?>
+			</div>
+	</div>
+  </div>
+  <div class="row content-border">
 	<div class="col-md-6">
-		<h2><?php print render($content['field_alert_date']); ?></h2>	
-		<hr>
-		<h3><?php print render($content['field_short_description']); ?></h3>
+		<h2>Participants</h2>	
+			<table border="0" cellspacing="0">
+				<tr>
+					<td class="border-bottom" ><b>Undergraduates</b></td>
+					<td class="border-bottom"><?php print render($content['field_undergraduates']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>Graduates</b></td>
+					<td class="border-bottom"><?php print render($content['field_graduates']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>OU Faculty</b></td>
+					<td class="border-bottom"><?php print render($content['field_faculty']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>OU Staff</b></td>
+					<td class="border-bottom"><?php print render($content['field_staff']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>OU Alumni</b></td>
+					<td class="border-bottom"><?php print render($content['field_alumni']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>High School Students</b></td>
+					<td class="border-bottom"><?php print render($content['field_high_school']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>High School Teachers</b></td>
+					<td class="border-bottom"><?php print render($content['field_high_school_teachers']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>UL Personnel</b></td>
+					<td class="border-bottom"><?php print render($content['field_ul_personnel']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>Other Participants</b></td>
+					<td class="border-bottom"><?php print render($content['field_other_participants']); ?></td>
+				</tr>
+				<tr>
+					<td class="total-background"><h3>Total</h3></td>
+					<td class="total-background"><h3><?php print render($content['field_total_participants']); ?></h3></td>
+				</tr>				
+			</table>
+	</div>
+  
+    
+	<div class="col-md-6">
+		<h2>Time Spent</h2>	
+			<table border="0" cellspacing="0">
+				<tr>
+					<td class="border-bottom"><b>Preparing for your session</b></td>
+					<td class="border-bottom"><?php print render($content['field_preparing']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>In your session</b></td>
+					<td class="border-bottom"><?php print render($content['field_in_session']); ?></td>
+				</tr>
+				<tr>
+					<td class="border-bottom"><b>Following up from your session</b></td>
+					<td class="border-bottom"><?php print render($content['field_followup']); ?></td>
+				</tr>
+				<tr>
+					<td class="total-background"><h3>Total</h3></td>
+					<td class="total-background"><h3><?php print render($content['field_total_preparation']); ?></h3></td>
+				</tr>				
+			</table>
+		</div>
+	</div>
+	<div class="row content-border">
+	<div class="col-md-12">
+		<h2>Session Details</h2>	
+			<div>
+				<?php print render($content['field_session_location']); ?>
+				<?php print render($content['field_other']); ?>
+				<?php print render($content['field_assessment_tool']); ?><br />
+				<?php print render($content['field_online_teaching']); ?><br />
+				<?php print render($content['field_file_teaching']); ?>
+			</div>
+	</div>
+	</div>
+	<div class="row content-border">
+	<div class="col-md-12">
+		<h2>Notes</h2>	
+			<div>
+				<?php print render($content['field_notes']); ?>
+			</div>
+	</div>
+	</div>
+	<div class="col-md-9"> 
 		
-							
+		<h1><?php print render($content['field_event_date']); ?></h1>
+		<div class="bg-info"><p><?php print render($content['field_category']); ?></p></div>
+		<p><?php print render($content['body']); ?></p>
+		<p><?php print render($content['field_event_url']); ?></p>
+		
 	</div>
   </div>
-	
-</div>
-
+ </div>
   
 
 
