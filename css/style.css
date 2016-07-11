@@ -631,6 +631,15 @@ HOMEPAGE
 	color:#ffffff;
 }
 
+.time-table td{
+	padding:10px 5px 10px 5px;
+	width:300px;
+}
+
+.time-table td.time-number {
+	width:50px;
+}
+
 
 /**
  * EMPLOYEE DIRECTORY/PROFILE
