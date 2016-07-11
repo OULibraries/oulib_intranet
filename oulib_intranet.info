@@ -17,7 +17,6 @@ regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 regions[logo]			= 'Library Logo'
-regions[site_search]    = 'Site Search'
 regions[login]          = 'Login'
 
 ;;;;;;;;;;;;;;;;;;;;;
