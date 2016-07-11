@@ -106,71 +106,103 @@
 	</div>
   </div>
   <div class="row content-border">
-	<div class="col-md-6">
-		<h2>Participants</h2>	
-			<table border="0" cellspacing="0">
+		<div class="col-md-12">
+			<h2>Participants</h2>	
+		</div>
+	
+		<div class="col-md-3">
+			<table border="0" cellspacing="0" class="time-table">
 				<tr>
 					<td class="border-bottom" ><b>Undergraduates</b></td>
-					<td class="border-bottom"><?php print render($content['field_undergraduates']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_undergraduates']); ?></td>
 				</tr>
 				<tr>
 					<td class="border-bottom"><b>Graduates</b></td>
-					<td class="border-bottom"><?php print render($content['field_graduates']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_graduates']); ?></td>
 				</tr>
 				<tr>
 					<td class="border-bottom"><b>OU Faculty</b></td>
-					<td class="border-bottom"><?php print render($content['field_faculty']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_faculty']); ?></td>
 				</tr>
+			</table>
+		</div>
+		<div class="col-md-3">
+			<table border="0" cellspacing="0" class="time-table">
 				<tr>
 					<td class="border-bottom"><b>OU Staff</b></td>
-					<td class="border-bottom"><?php print render($content['field_staff']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_staff']); ?></td>
 				</tr>
 				<tr>
 					<td class="border-bottom"><b>OU Alumni</b></td>
-					<td class="border-bottom"><?php print render($content['field_alumni']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_alumni']); ?></td>
 				</tr>
 				<tr>
 					<td class="border-bottom"><b>High School Students</b></td>
-					<td class="border-bottom"><?php print render($content['field_high_school']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_high_school']); ?></td>
 				</tr>
+			</table>
+		</div>
+		<div class="col-md-3">
+			<table border="0" cellspacing="0" class="time-table">
 				<tr>
 					<td class="border-bottom"><b>High School Teachers</b></td>
-					<td class="border-bottom"><?php print render($content['field_high_school_teachers']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_high_school_teachers']); ?></td>
 				</tr>
 				<tr>
 					<td class="border-bottom"><b>UL Personnel</b></td>
-					<td class="border-bottom"><?php print render($content['field_ul_personnel']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_ul_personnel']); ?></td>
 				</tr>
 				<tr>
 					<td class="border-bottom"><b>Other Participants</b></td>
-					<td class="border-bottom"><?php print render($content['field_other_participants']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_other_participants']); ?></td>
 				</tr>
+			</table>
+		</div>
+		<div class="col-md-3">
+			<table border="0" cellspacing="0" class="time-table">
 				<tr>
 					<td class="total-background"><h3>Total</h3></td>
-					<td class="total-background"><h3><?php print render($content['field_total_participants']); ?></h3></td>
+					<td class="total-background time-number"><h3><?php print render($content['field_total_participants']); ?></h3></td>
 				</tr>				
 			</table>
+		</div>
 	</div>
-  
+	
+	<div class="row content-border">
     
-	<div class="col-md-6">
-		<h2>Time Spent</h2>	
-			<table border="0" cellspacing="0">
+		<div class="col-md-12">
+			<h2>Time Spent</h2>	
+		</div>
+	
+		<div class="col-md-3">
+			<table border="0" cellspacing="0" class="time-table">
 				<tr>
 					<td class="border-bottom"><b>Preparing for your session</b></td>
-					<td class="border-bottom"><?php print render($content['field_preparing']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_preparing']); ?></td>
 				</tr>
+			</table>
+		</div>
+		<div class="col-md-3">
+			<table border="0" cellspacing="0" class="time-table">
 				<tr>
 					<td class="border-bottom"><b>In your session</b></td>
-					<td class="border-bottom"><?php print render($content['field_in_session']); ?></td>
+					<td class="border-bottom time-number"><?php print render($content['field_in_session']); ?></td>
 				</tr>
+			</table>
+		</div>
+		<div class="col-md-3">
+			<table border="0" cellspacing="0" class="time-table">
 				<tr>
-					<td class="border-bottom"><b>Following up from your session</b></td>
-					<td class="border-bottom"><?php print render($content['field_followup']); ?></td>
+					<td class="border-bottom"><b>Following up</b></td>
+					<td class="border-bottom time-number"><?php print render($content['field_followup']); ?></td>
 				</tr>
+			</table>
+		</div>
+		<div class="col-md-3">
+			<table border="0" cellspacing="0" class="time-table">
 				<tr>
 					<td class="total-background"><h3>Total</h3></td>
-					<td class="total-background"><h3><?php print render($content['field_total_preparation']); ?></h3></td>
+					<td class="total-background time-number"><h3><?php print render($content['field_total_preparation']); ?></h3></td>
 				</tr>				
 			</table>
 		</div>
