@@ -84,15 +84,8 @@
 				</div>
 			<?php endif; ?>
 			
-			<?php if (!empty($page['site_search'])): ?>
-				<div>
-					<?php print render($page['site_search']); ?>	
-				</div>
-			<?php endif; ?>
-			
-
 			<?php if (!empty($page['login'])): ?>
-				<div>
+				<div class="col-md-5 col-sm-12 col-xs-12">
 					<?php print render($page['login']); ?>	
 				</div>
 			<?php endif; ?>
