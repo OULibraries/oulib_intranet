@@ -79,13 +79,13 @@
 	<div class="container-fluid">
 		<div class="row">
 			<?php if (!empty($page['logo'])): ?>
-				<div class="col-md-7 col-sm-12 col-xs-12">
+				<div class="col-md-10 col-sm-12 col-xs-12">
 					<?php print render($page['logo']); ?>
 				</div>
 			<?php endif; ?>
 			
 			<?php if (!empty($page['login'])): ?>
-				<div class="col-md-5 col-sm-12 col-xs-12">
+				<div class="col-md-2 col-sm-12 col-xs-12">
 					<?php print render($page['login']); ?>	
 				</div>
 			<?php endif; ?>
