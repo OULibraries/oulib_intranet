@@ -758,11 +758,6 @@ HOMEPAGE
  * ADDITIONAL STATS STYLES --> to be merged later
  */
 
-.current-user{
-	font-family: 'Droid Sans';
-	color: #5a8ba8;
-} 
-
 .at-a-glance{
 	background-color: #c1d9e8;
 	border-radius: 5px;
@@ -775,4 +770,8 @@ HOMEPAGE
 
 .number{
 	color: #5a8ba8;
+}
+
+.center {
+	text-align:center;
 }
