@@ -552,14 +552,6 @@ h4 {
  /** ---------------------------
  * STATS
  */
-.current-number {
-	font-weight: 600;
-	text-align: center;
-	font-size: 155px;
-	margin: 0;
-	color: #621212;
-	font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
-}
 
 .on-site-now {
 	text-align: center;
@@ -753,7 +745,6 @@ HOMEPAGE
 }
 
 
-
 /**
  * ADDITIONAL STATS STYLES --> to be merged later
  */
@@ -765,9 +756,7 @@ HOMEPAGE
 
 .at-a-glance h2{
 	font-size: 2.75em;
-	color: #5a8ba8;
 	background-color: transparent;
-	text-align: center;
 }
 
 .number{
@@ -775,5 +764,6 @@ HOMEPAGE
 }
 
 .center {
-	text-align: center;
+	text-align:center;
 }
+
