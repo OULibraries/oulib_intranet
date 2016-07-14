@@ -765,7 +765,9 @@ HOMEPAGE
 
 .at-a-glance h2{
 	font-size: 2.75em;
+	color: #5a8ba8;
 	background-color: transparent;
+	text-align: center;
 }
 
 .number{
@@ -773,5 +775,5 @@ HOMEPAGE
 }
 
 .center {
-	text-align:center;
+	text-align: center;
 }
