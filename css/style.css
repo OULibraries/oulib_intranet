@@ -756,7 +756,9 @@ HOMEPAGE
 
 .at-a-glance h2{
 	font-size: 2.75em;
+	color: #5a8ba8;
 	background-color: transparent;
+	text-align: center;
 }
 
 .number{
@@ -767,3 +769,10 @@ HOMEPAGE
 	text-align:center;
 }
 
+.current-number {
+  font-weight: 600;
+  text-align: center;
+  font-size: 155px;
+  margin: 0;
+  color: #5a8ba8;
+}
