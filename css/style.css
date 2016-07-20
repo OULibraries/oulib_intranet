@@ -42,6 +42,10 @@
    
    ADDITIONAL STATS STYLES --> to be merged later
    
+   -----
+   
+   COMMUNITY
+   
    - - - - - - - - -
  */
  
@@ -770,9 +774,31 @@ HOMEPAGE
 }
 
 .current-number {
-  font-weight: 600;
-  text-align: center;
-  font-size: 155px;
-  margin: 0;
-  color: #5a8ba8;
+	font-weight: 600;
+	text-align: center;
+	font-size: 155px;
+	margin: 0;
+	color: #5a8ba8;
+}
+
+
+
+/**
+ * COMMUNITY
+ */
+ 
+.our-story-item h2{
+	font-size: 1.4em;
+	text-transform: capitalize;
+	font-style: italic;
+}
+
+.our-story-item{
+	background-color: #fff;
+    border: 1px solid #c9c9c9;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #eaeaea;
+	margin-bottom: 10px;
+	padding: 15px;
+	min-height: 525px;
 }
