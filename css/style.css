@@ -800,5 +800,29 @@ HOMEPAGE
 	box-shadow: 2px 2px 4px #eaeaea;
 	margin-bottom: 10px;
 	padding: 15px;
-	min-height: 525px;
+	min-height: 460px;
+}
+
+.photo-contest-photo{
+	padding: 12px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 4px #eaeaea;
+}
+
+.photo-contest-item h2{
+	font-size: 1.1em;
+	text-transform: capitalize;
+	font-style: italic;
+}
+
+.photo-contest-item-info{
+	padding: 10px;
+    background-color: #d8ebf7;
+	margin-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px dashed #cecece;
+	background-color: #f9f9f9;
+	border-radius: 5px;
 }
