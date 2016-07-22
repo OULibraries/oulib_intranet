@@ -800,7 +800,7 @@ HOMEPAGE
 	box-shadow: 2px 2px 4px #eaeaea;
 	margin-bottom: 10px;
 	padding: 15px;
-	height: 525px;
+	min-height: 585px;
 }
 
 .photo-contest-photo{
