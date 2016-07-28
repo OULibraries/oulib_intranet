@@ -56,7 +56,7 @@
   opacity: 0.8;
   }
 
-#upload:active {
+  #upload:active {
   transform: translateY(4px);
   box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
   text-decoration: none;
@@ -72,16 +72,14 @@
 
 #cbp-ig-grid {
   color:#5a8ba8;
-	-webkit-transition: -webkit-transform 0.2s;
-	-moz-transition: -moz-transform 0.2s;
-	transition: transform 0.2s;
-  list-style: none;
+  -webkit-transition: -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
   height-min: 200px;
 }
 
 #cbp-ig-grid:before {
-	position: absolute;
-	background: #7fa5bc;
+ background: #7fa5bc;
 }
 
 
@@ -90,6 +88,10 @@
 	-moz-transform: translateY(5px);
 	-ms-transform: translateY(5px);
 	transform: translateY(5px);
+ -webkit-transform: translateY(5px);
+ -moz-transform: translateY(5px);
+ -ms-transform: translateY(5px);
+ transform: translateY(5px);
   color: #fff;
   background:#7fa5bc;
   text-decoration: none;
