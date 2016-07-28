@@ -29,7 +29,7 @@
   #upload {
   padding: 40px 20px 40px 20px;
   border: 0;
-  background-image: linear-gradient(-180deg, #5a8ba8, 0, #5a8ba8 100%);
+  background-image: linear-gradient(-180deg, #5a8ba8, 0, #7fa5bc 100%);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.2), 0 10px 20px 0 rgba(0,0,0,.2);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -53,9 +53,6 @@
   transform: translateY(-2px);
   box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
   text-decoration: none;
-  <<<<<<< HEAD
-  color:black;
-  text-decoration: none;
   color:#3d3d3d;
   opacity: 0.8;
   }
@@ -74,19 +71,44 @@
   align-items:center;
 }
 
-=======
+#cbp-ig-grid {
+	font-size: 2em;
+	position: relative;
+  color:#5a8ba8;
+	-webkit-transition: -webkit-transform 0.2s;
+	-moz-transition: -moz-transform 0.2s;
+	transition: transform 0.2s;
+  list-style: none;
+  height-min: 200px;
 }
 
-#upload:active {
-transform: translateY(4px);
-box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
-text-decoration: none;
+#cbp-ig-grid:before {
+	position: absolute;
+	background: #7fa5bc;
 }
 
->>>>>>> 084338d963951c92c0a641e7b33bcf2c40f1cb4b
+
+#cbp-ig-grid:hover {
+	-webkit-transform: translateY(5px);
+	-moz-transform: translateY(5px);
+	-ms-transform: translateY(5px);
+	transform: translateY(5pxpx);
+  color: #5a8ba8;
+  background:#7fa5bc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#Collection {
+  text-align: center;
+}
+
+  /*
    -----
-
-   HOMEPAGE
+   HOMEPAGE /*
 
    -----
 
