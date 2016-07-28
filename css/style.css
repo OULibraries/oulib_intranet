@@ -27,8 +27,7 @@
    DOCS & FORMS
    */
   #upload {
-  padding: 40px 20px 40px 20px;
-  border: 0;
+  border:0;
   background-image: linear-gradient(-180deg, #5a8ba8, 0, #7fa5bc 100%);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.2), 0 10px 20px 0 rgba(0,0,0,.2);
   -webkit-border-radius: 6px;
@@ -72,8 +71,6 @@
 }
 
 #cbp-ig-grid {
-	font-size: 2em;
-	position: relative;
   color:#5a8ba8;
 	-webkit-transition: -webkit-transform 0.2s;
 	-moz-transition: -moz-transform 0.2s;
@@ -92,8 +89,8 @@
 	-webkit-transform: translateY(5px);
 	-moz-transform: translateY(5px);
 	-ms-transform: translateY(5px);
-	transform: translateY(5pxpx);
-  color: #5a8ba8;
+	transform: translateY(5px);
+  color: #fff;
   background:#7fa5bc;
   text-decoration: none;
 }
