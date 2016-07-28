@@ -82,16 +82,16 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix container"<?php print $attributes; ?>>
   <div class="row content-border">
     <div class="col-md-12">
-		<div style="float:left;"><h2><?php print render($content['field_status']); ?></h2></div> 
-		<div style="float:left; margin:0px 10px 0px 10px;"><h2>|</h2></div>
-		<div style="float:left;"><h2><?php print render($content['field_alert_date']); ?></h2></div>
+		<div class="left-float"><h2><?php print render($content['field_status']); ?></h2></div> 
+		<div  class="left-float" style="margin:0px 10px 0px 10px;"><h2>|</h2></div>
+		<div  class="left-float"><h2><?php print render($content['field_alert_date']); ?></h2></div>
 		<div style="clear:both;"></div>
 	</div>
 	<div class="col-md-12">
 		<hr>
 	</div>
 	<div class="col-md-12">
-		<h3><?php print render($content['field_short_description']); ?></h3>					
+		<p><?php print render($content['field_short_description']); ?></p>					
 	</div>
   </div>
 	

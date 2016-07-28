@@ -82,25 +82,33 @@
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-<div class="event_page">
   <div class="row">
-	<div class="col-md-3">
-		<h1><div class="thumbnail"><?php print render($content['field_image']);?></div></h1>	
+	<div class="col-md-2">
+		<div class="date-container center">
+		 <div class="date"><?php print render($content['field_event_date']); ?></div>
+		</div> 
+		 
+		 <div style="width:130px;" class="center"><h2><?php print render($content['field_category']); ?></h2></div>
+		
+	</div> 
+	<div class="col-md-10">
+			
 			<div>
+			<p><?php print render($content['field_description']) ?></p>
 				<?php print render($content['field_location']); ?>
 				<?php print render($content['field_room']); ?>
 			</div>
+		
+		
+		
+		<div>&nbsp;</div>
+		<div class="viewmore">
+		<a class="viewmore-link" href="<?php print render($content['field_event_url'][0]['display_url']); ?>">View on Public Site</a></p>
 		</div>
-	<div class="col-md-9"> 
-		<h2><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2> 
-		<h1><?php print render($content['field_event_date']); ?></h1>
-		<div class="bg-info"><p><?php print render($content['field_category']); ?></p></div>
-		<p><?php print render($content['body']); ?></p>
-		<p><?php print render($content['field_event_url']); ?></p>
 		
 	</div>
   </div>
- </div>
+
   
 
 
