@@ -1,12 +1,12 @@
-/* 
+/*
    Stylesheet for OU Libraries Intranet //
-  
+
    Table of Contents
-   
+
    - - - - - - - - -
-   
+
    MAIN INTRANET
-   
+
    General Styles
    Global Footer
    Social Media Icons
@@ -17,42 +17,84 @@
    Menus
    Headings
    Region-Top
-   
+
    -----
-   
+
    STATS
-   
+
    -----
-   
+
    DOCS & FORMS
-   
+   */
+  #upload {
+  margin: 10%;
+  padding: 20px;
+  border: 0;
+  background-image: linear-gradient(-180deg, #5a8ba8, 0, #5a8ba8 100%);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.2), 0 10px 20px 0 rgba(0,0,0,.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #fff;
+  transition: .4s;
+  outline: none;
+  overflow: visible;
+  font-weight: 500;
+  font-size: 4em;
+  line-height: normanl;
+  text-align: left;
+  color: #fff;
+}
+
+#upload:hover {
+transform: translateY(-2px);
+box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
+text-decoration: none;
+color:black;
+text-decoration: none;
+color:#3d3d3d;
+opacity: 0.8;
+}
+
+#upload:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.uploadflex {
+  display:flex;
+  flex-flow: row-wrap;
+  align-conent:space-between;
+}
+
    -----
-   
+
    HOMEPAGE
-   
+
    -----
-   
+
    EMPLOYEE DIRECTORY/PROFILE
-   
+
    -----
-   
+
    GET-TO-KNOW WIDGET
-   
+
    -----
-   
+
    ADDITIONAL STATS STYLES --> to be merged later
-   
+
    - - - - - - - - -
  */
- 
- 
- 
+
+
+
  /** ---------------------------
- 
- 
+
+
  * MAIN INTRANET
  */
- 
+
  /**
  * General Styles
  */
@@ -60,7 +102,7 @@
 html,body{
     height: 100%;
 	background-color: #fff;
-	font-family: 'Droid Sans'; 
+	font-family: 'Droid Sans';
 	font-weight: normal;
 }
 
@@ -76,7 +118,7 @@ html,body{
 }
 
 .whitebg {
-	background-color: #fff;	
+	background-color: #fff;
 	margin-bottom: 25px;
 }
 
@@ -94,14 +136,14 @@ a:hover, a:focus {
 img{
 	height: auto;
     max-width: 100%;
-} 
+}
 
- 
+
 
  /**
  * Global Footer
- */	
- 
+ */
+
 .footer{
     background-color: #333;
     color: #999;
@@ -109,7 +151,7 @@ img{
     line-height: 1.2em;
 	padding-top: 2% 15% 2% 15%;
 	border-top: 7px solid #1f1f1f;
-	min-height: 100%; 
+	min-height: 100%;
     width: 100%;
 	margin-top:0;
 }
@@ -144,7 +186,7 @@ img{
 
  /**
  * Social Media Icons
- */	
+ */
 
 .social ul{
     display: block;
@@ -154,7 +196,7 @@ img{
 .social ul li a.twitter,
 .social ul li a.youtube,
 .social ul li a.pinterest{
-    display: block; 
+    display: block;
     height: 45px;
     width: 45px;
     float: left;
@@ -167,36 +209,36 @@ img{
 	margin-right:5px;
 }
 
-.social ul li a.facebook{ 
-	background-position:0 0; 
+.social ul li a.facebook{
+	background-position:0 0;
 }
 
-.social ul li a.facebook:hover{ 
-	background-position:-46px 0; 
+.social ul li a.facebook:hover{
+	background-position:-46px 0;
 }
 
-.social ul li a.twitter{ 
-	background-position:0 -46px; 
+.social ul li a.twitter{
+	background-position:0 -46px;
 }
 
-.social ul li a.twitter:hover{ 
-	background-position:-46px -46px; 
+.social ul li a.twitter:hover{
+	background-position:-46px -46px;
 }
 
-.social ul li a.youtube{ 
-	background-position: 0 -92px; 
+.social ul li a.youtube{
+	background-position: 0 -92px;
 }
 
-.social ul li a.youtube:hover{ 
-	background-position: -46px -92px; 
+.social ul li a.youtube:hover{
+	background-position: -46px -92px;
 }
 
-.social ul li a.pinterest{ 
-	background-position: 0 -276px; 
+.social ul li a.pinterest{
+	background-position: 0 -276px;
 }
 
-.social ul li a.pinterest:hover{ 
-	background-position: -46px -276px; 
+.social ul li a.pinterest:hover{
+	background-position: -46px -276px;
 }
 
 .contact_icons{
@@ -226,7 +268,7 @@ img{
  /**
  * Library Logo
  */
- 
+
 .logo img{
 	height: auto;
     max-width: 100%;
@@ -271,9 +313,9 @@ img{
 	width: 100%;
 	border-radius: 0;
 	border: 0px solid #3d3d3d;
-	box-shadow: 0px 5px 5px #bbb; 
-	-moz-box-shadow: 0px 5px 5px #bbb; 
-	-webkit-box-shadow: 0px 5px 5px #bbb; 
+	box-shadow: 0px 5px 5px #bbb;
+	-moz-box-shadow: 0px 5px 5px #bbb;
+	-webkit-box-shadow: 0px 5px 5px #bbb;
 	-o-box-shadow: 0px 5px 5px #bbb;
 }
 
@@ -304,12 +346,12 @@ img{
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
-		
+
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
     color: #ececec;
     background-color: #3d3d3d;
 }
-	
+
 .navbar-default .navbar-nav>li>a:hover {
     color: #ececec;
 	border-bottom: 10px solid #428bca;
@@ -384,7 +426,7 @@ img{
     }
 }
 
-/* responsive text queries 
+/* responsive text queries
 +
 +
 +
@@ -400,7 +442,7 @@ img{
 .navbar {
     font-size: 11px;
   }
- 
+
 }
 
 
@@ -514,7 +556,7 @@ h4 {
 /**
  * Sidebar global
  */
- 
+
  .sidebar {
 	background-color:#c1d9e8;
 	color: #242424;
@@ -575,14 +617,14 @@ h4 {
 .suma-square {
 	border: medium #48484c;
 }
- 
- 
+
+
   /** ---------------------------
  * DOCS & FORMS
  */
- 
- 
- 
+
+
+
  /** --------------------------
 HOMEPAGE
 **/
@@ -590,7 +632,7 @@ HOMEPAGE
 #homepage li {
 	margin:5px 0px 10px 0px;
 	font-weight:bold;
-	
+
 }
 
 #homepage .homepage-icons {
@@ -633,7 +675,7 @@ HOMEPAGE
 /**
  * TOOLBARS
  */
- 
+
 .toolbar {
 	background-color:#e9e9e9;
 	text-align:center;
@@ -645,7 +687,7 @@ HOMEPAGE
 	background-color:#2a8ac4;
 	width:180px;
 	border-radius:10px;
-	text-align:center;	
+	text-align:center;
 	margin:10px 0px 20px 0px;
 }
 .add-button a {
@@ -665,7 +707,7 @@ HOMEPAGE
 /**
  * EMPLOYEE DIRECTORY/PROFILE
  */
- 
+
 .content-border{
     background-color: #fff;
     border: 1px solid #c9c9c9;
@@ -706,7 +748,7 @@ HOMEPAGE
 	 color: #274557;
 	 background-color: #d8ebf7;
 	 border-radius: 5px;
-	 padding: 5px; 
+	 padding: 5px;
 	 text-align: center;
 }
 
