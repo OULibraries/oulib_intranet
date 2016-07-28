@@ -26,9 +26,14 @@
 
    DOCS & FORMS
    */
+<<<<<<< HEAD
   #upload {
   margin: 10%;
   padding: 20px;
+=======
+   #upload {
+  padding: 40px 20px 40px 20px;
+>>>>>>> 084338d963951c92c0a641e7b33bcf2c40f1cb4b
   border: 0;
   background-image: linear-gradient(-180deg, #5a8ba8, 0, #5a8ba8 100%);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.2), 0 10px 20px 0 rgba(0,0,0,.2);
@@ -36,6 +41,7 @@
   -moz-border-radius: 6px;
   border-radius: 6px;
   color: #fff;
+<<<<<<< HEAD
   transition: .4s;
   outline: none;
   overflow: visible;
@@ -45,11 +51,20 @@
   text-align: left;
   color: #fff;
 }
+=======
+  font-weight: 700;
+  transition: .4s;
+  outline: none;
+  overflow: visible;
+   }
+
+>>>>>>> 084338d963951c92c0a641e7b33bcf2c40f1cb4b
 
 #upload:hover {
 transform: translateY(-2px);
 box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
 text-decoration: none;
+<<<<<<< HEAD
 color:black;
 text-decoration: none;
 color:#3d3d3d;
@@ -68,6 +83,16 @@ opacity: 0.8;
   align-conent:space-between;
 }
 
+=======
+}
+
+#upload:active {
+transform: translateY(4px);
+box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
+text-decoration: none;
+}
+   
+>>>>>>> 084338d963951c92c0a641e7b33bcf2c40f1cb4b
    -----
 
    HOMEPAGE
@@ -83,7 +108,15 @@ opacity: 0.8;
    -----
 
    ADDITIONAL STATS STYLES --> to be merged later
+<<<<<<< HEAD
 
+=======
+   
+   -----
+   
+   COMMUNITY
+   
+>>>>>>> 084338d963951c92c0a641e7b33bcf2c40f1cb4b
    - - - - - - - - -
  */
 
@@ -812,9 +845,55 @@ HOMEPAGE
 }
 
 .current-number {
-  font-weight: 600;
-  text-align: center;
-  font-size: 155px;
-  margin: 0;
-  color: #5a8ba8;
+	font-weight: 600;
+	text-align: center;
+	font-size: 155px;
+	margin: 0;
+	color: #5a8ba8;
+}
+
+
+
+/**
+ * COMMUNITY
+ */
+ 
+.our-story-item h2{
+	font-size: 1.4em;
+	text-transform: capitalize;
+	font-style: italic;
+}
+
+.our-story-item{
+	background-color: #fff;
+    border: 1px solid #c9c9c9;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #eaeaea;
+	margin-bottom: 10px;
+	padding: 15px;
+	min-height: 585px;
+}
+
+.photo-contest-photo{
+	padding: 12px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 4px #eaeaea;
+}
+
+.photo-contest-item h2{
+	font-size: 1.1em;
+	text-transform: capitalize;
+	font-style: italic;
+}
+
+.photo-contest-item-info{
+	padding: 10px;
+    background-color: #d8ebf7;
+	margin-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px dashed #cecece;
+	background-color: #f9f9f9;
+	border-radius: 5px;
 }
