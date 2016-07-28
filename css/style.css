@@ -26,14 +26,8 @@
 
    DOCS & FORMS
    */
-<<<<<<< HEAD
   #upload {
-  margin: 10%;
-  padding: 20px;
-=======
-   #upload {
   padding: 40px 20px 40px 20px;
->>>>>>> 084338d963951c92c0a641e7b33bcf2c40f1cb4b
   border: 0;
   background-image: linear-gradient(-180deg, #5a8ba8, 0, #5a8ba8 100%);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.2), 0 10px 20px 0 rgba(0,0,0,.2);
@@ -41,7 +35,6 @@
   -moz-border-radius: 6px;
   border-radius: 6px;
   color: #fff;
-<<<<<<< HEAD
   transition: .4s;
   outline: none;
   overflow: visible;
@@ -50,37 +43,35 @@
   line-height: normanl;
   text-align: left;
   color: #fff;
-}
-=======
   font-weight: 700;
   transition: .4s;
   outline: none;
   overflow: visible;
    }
 
->>>>>>> 084338d963951c92c0a641e7b33bcf2c40f1cb4b
-
-#upload:hover {
-transform: translateY(-2px);
-box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
-text-decoration: none;
-<<<<<<< HEAD
-color:black;
-text-decoration: none;
-color:#3d3d3d;
-opacity: 0.8;
-}
+  #upload:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
+  text-decoration: none;
+  <<<<<<< HEAD
+  color:black;
+  text-decoration: none;
+  color:#3d3d3d;
+  opacity: 0.8;
+  }
 
 #upload:active {
   transform: translateY(4px);
   box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
   text-decoration: none;
-}
+  }
 
 .uploadflex {
   display:flex;
-  flex-flow: row-wrap;
-  align-conent:space-between;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content:space-between;
+  align-items:center;
 }
 
 =======
@@ -91,7 +82,7 @@ transform: translateY(4px);
 box-shadow: 0 5px 10px 0 rgba(0,0,0,.2), 0 20px 30px 0 rgba(0,0,0,.5);
 text-decoration: none;
 }
-   
+
 >>>>>>> 084338d963951c92c0a641e7b33bcf2c40f1cb4b
    -----
 
@@ -111,11 +102,11 @@ text-decoration: none;
 <<<<<<< HEAD
 
 =======
-   
+
    -----
-   
+
    COMMUNITY
-   
+
 >>>>>>> 084338d963951c92c0a641e7b33bcf2c40f1cb4b
    - - - - - - - - -
  */
@@ -857,7 +848,7 @@ HOMEPAGE
 /**
  * COMMUNITY
  */
- 
+
 .our-story-item h2{
 	font-size: 1.4em;
 	text-transform: capitalize;
