@@ -603,6 +603,7 @@ h4 {
 	background-color:#c1d9e8;
 	color: #242424;
 	border-radius: 5px;
+	margin:0px 0px 10px 0px;
 }
 
 .sidebar-center {
@@ -632,6 +633,17 @@ h4 {
 
 .view .date-nav-wrapper .date-prev
 {right:79px;}
+
+.sidebar h2{
+	padding: 10px;
+	color: #fff;
+	font-size: 1.75em;
+    background-color: #5a8ba8;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
 
  /** ---------------------------
  * STATS
@@ -773,16 +785,7 @@ HOMEPAGE
 	margin-bottom: 10px;
 }
 
-.sidebar h2{
-	padding: 10px;
-	color: #fff;
-	font-size: 1.75em;
-    background-color: #5a8ba8;
-	border-radius: 5px;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	text-align: center;
-}
+
 
 .employee-profile-name{
 	 font-size: 2.75em;
