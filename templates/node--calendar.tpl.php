@@ -94,7 +94,7 @@
 	<div class="col-md-10">
 			
 			<div>
-			<p><?php print render($content['body']) ?></p>
+			<p> <?php print render($content['body']) ?></p>
 				<?php print render($content['field_location']); ?>
 				<?php print render($content['field_room']); ?>
 			</div>
