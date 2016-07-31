@@ -82,13 +82,13 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <div class="row">
-	<div class="col-md-3">
+	<div class="col-md-2">
 		
 		<div class="thumbnail"><?php print render($content['field_image']); ?></div>
 		
 	</div>
 	
-	<div class="col-md-9">
+	<div class="col-md-10">
 		
 		<?php print render($content['field_description']); ?>
 		
