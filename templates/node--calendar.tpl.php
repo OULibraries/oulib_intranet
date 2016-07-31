@@ -99,13 +99,12 @@
 				<p>	<?php print render($content['field_room']); ?></p>
 			</div>
 		
-			<?php if ($content['field_event_url']): ?>
-			
-			<div>&nbsp;</div>
-			<div class="viewmore">
-				<a class="viewmore-link" href="<?php print render($content['field_event_url'][0]['display_url']); ?>">View on Public Site</a></p>
-			</div>
-			<?php endif; ?>
+					<div>&nbsp;</div>
+					<div class="viewmore">
+						<a class="viewmore-link" href="<?php print render($content['field_event_url'][0]['display_url']); ?>">View on Public Site</a></p>
+					</div>
+					
+			    
 		
 	</div>
   </div>

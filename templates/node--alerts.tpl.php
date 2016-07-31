@@ -81,9 +81,12 @@
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix container"<?php print $attributes; ?>>
   <div class="row content-border">
-    <div class="col-md-12">
-		<div class="left-float"><h2><?php print render($content['field_status']); ?></h2></div> 
-		<div  class="left-float" style="margin:0px 10px 0px 10px;"><h2>|</h2></div>
+	<div class="col-md-1">
+		<img src="/sites/all/themes/oulib_intranet/img/alert.png" class="alert-icon">
+	</div>
+    <div class="col-md-10">
+	    	<div class="left-float"><h2><?php print render($content['field_status']); ?></h2></div> 
+		<div  class="left-float alert-pipe"><h2>|</h2></div>
 		<div  class="left-float"><h2><?php print render($content['field_alert_date']); ?></h2></div>
 		<div style="clear:both;"></div>
 	</div>
