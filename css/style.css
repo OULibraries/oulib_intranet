@@ -693,6 +693,11 @@ HOMEPAGE
 	margin:-10px 10px 0px 0px;
 }
 
+.alert-icon {
+width:75px; margin:10px 0px 0px 0px;
+}
+.alert-pipe {
+	margin:0px 10px 0px 10px;}
 /** ----------------------------
  *DASHBOARD
  **/

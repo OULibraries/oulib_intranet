@@ -94,17 +94,17 @@
 	<div class="col-md-10">
 			
 			<div>
-			<p> <?php print render($content['body']) ?></p>
-				<?php print render($content['field_location']); ?>
-				<?php print render($content['field_room']); ?>
+				<p> <?php print render($content['body']); ?></p>
+				<p>	<?php print render($content['field_location']); ?></p>
+				<p>	<?php print render($content['field_room']); ?></p>
 			</div>
 		
-		
-		
-		<div>&nbsp;</div>
-		<div class="viewmore">
-		<a class="viewmore-link" href="<?php print render($content['field_event_url'][0]['display_url']); ?>">View on Public Site</a></p>
-		</div>
+					<div>&nbsp;</div>
+					<div class="viewmore">
+						<a class="viewmore-link" href="<?php print render($content['field_event_url'][0]['display_url']); ?>">View on Public Site</a></p>
+					</div>
+					
+			    
 		
 	</div>
   </div>
