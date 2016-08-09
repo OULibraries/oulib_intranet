@@ -85,7 +85,7 @@
 <div class="content-border">
   <div class="row">
 	<div class="col-md-3">
-		<h1><div><?php print render($content['field_image']);?></div></h1>	
+		<h1><div class="employee-profile-userphoto"><?php print render($content['field_image']);?></div></h1>	
 		</div>
 	<div class="col-md-9"> 
 		<h2><?php print $title_attributes; ?><?php print $title; ?></h2> 
