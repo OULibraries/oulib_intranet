@@ -196,48 +196,35 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-4" style="padding-bottom:25px;">
-		<h2>CAMPUS RESOURCES</h2>
-								<ul>
-
-									<li><a href="http://www.ou.edu/emergencypreparedness.html" title="Emergency Preparedness">Emergency Preparedness</a></li>
-
-									<li><a href="http://www.ou.edu/parking.html" title="OU Parking">OU Parking</a></li>
-
-									<li><a href="http://calendar.ou.edu/" title="Campus Events">Campus Events</a></li>
-
-									<li><a href="https://itstore.ou.edu/Account/LogOn?ReturnUrl=%2f" title="IT Store">IT Store</a></li>
-									
-									<li><a href="https://www.ou.edu/ouit/help" title="IT Support">IT Support</a></li>
-									
-									<li><a href="http://hr.ou.edu/" title="Human Resources">Human Resources</a></li>
-									
-									<li><a href="http://jobs.ou.edu/" title="Employment">Employment</a></li>
-
-								</ul>
-		</div>
 		
 		<div class="col-md-4" style="padding-bottom:25px;">
 		<h2>LIBRARIES RESOURCES</h2>
 						
                         <ul>
-
-                            <li><a href="http://hr.ou.edu/Employees/New-Employees-at-OU" title="New Employee Toolkit">New Employee Toolkit</a></li>
-
-                            <li><a href="" title="Supervisor Toolkit">Supervisor Toolkit</a></li>
-
-                            <li><a href="https://libraries.ou.edu/legacy/jobs/" title="Employment Openings">Employment Openings</a></li>
-
-                            <li><a href="https://help.libraries.ou.edu/" title="Help.libraries.ou.edu">Help.libraries.ou.edu</a></li>
-
-                            <li><a href="https://libraries.ou.edu/node/add/resource-problem" title="E-Resource Report Form">E-Resource Report Form</a></li>
+						
+							<li><a href="/alerts-archive" title="Alerts">Alerts</a></li>
 							
-							<li><a href="" title="Alerts">Alerts</a></li>
-							
-							<li><a href="https://lib.ou.edu/" title="Document Registry">Document Registry</a></li>
+							<li><a href="https://libraries.ou.edu/node/add/resource-problem" title="E-Resource Report Form">E-Resource Report Form</a></li>
+
+                            <li><a href="https://help.libraries.ou.edu/" title="Help.libraries.ou.edu">Library IT Support</a></li>
 
                         </ul>
 		</div>
+
+		
+		<div class="col-md-4" style="padding-bottom:25px;">
+		<h2>CAMPUS RESOURCES</h2>
+								<ul>
+
+									<li><a href="http://www.ou.edu/emergencypreparedness.html" title="Emergency Preparedness">Emergency Preparedness</a></li>
+									
+									<li><a href="http://hr.ou.edu/" title="Human Resources">Human Resources</a></li>
+									
+									<li><a href="https://www.ou.edu/ouit/help" title="IT Support">OU IT Support</a></li>
+
+								</ul>
+		</div>
+		
 		
 		<div class="col-md-4">
 		<div class="social">
@@ -246,7 +233,7 @@
 
                             <li><a href="http://www.facebook.com/UniversityLibraries" class="facebook" title="facebook"></a></li>
 
-                            <li><a href="http://twitter.com/OULibrarian" class="twitter" title="twitter"></a></li>
+                            <li><a href="http://twitter.com/OU_Libraries" class="twitter" title="twitter"></a></li>
 
                             <li><a href="http://www.youtube.com/user/OULibraryOverview" class="youtube" title="youtube"></a></li>
 
