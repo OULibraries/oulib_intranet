@@ -79,8 +79,11 @@
  *
  * @ingroup themeable
  */
+ 
+ $formatted_date = format_date($node->created, 'custom', 'F j, Y - g:i a');
 ?>
-<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> content-border clearfix"<?php print $attributes; ?>>
 
   <div class="row">
 	<div class="col-md-2">
@@ -94,7 +97,10 @@
 	<div class="col-md-10">
 			
 			<div>
+				<h1 style="margin-top:0px;"><?php print render($formatted_date); ?></h1>
+				<hr>
 				<p> <?php print render($content['body']); ?></p>
+				<hr>
 				<p>	<?php print render($content['field_location']); ?></p>
 				<p>	<?php print render($content['field_room']); ?></p>
 			</div>
