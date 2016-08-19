@@ -97,8 +97,6 @@
 	<div class="col-md-10">
 			
 			<div>
-				<h1 style="margin-top:0px;"><?php print render($formatted_date); ?></h1>
-				<hr>
 				<p> <?php print render($content['body']); ?></p>
 				<hr>
 				<p>	<?php print render($content['field_location']); ?></p>
