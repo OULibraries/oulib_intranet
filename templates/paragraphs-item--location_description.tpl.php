@@ -30,6 +30,7 @@
 <div class="paragraphs_location_description row">
 	<div class="col-md-12">
 	<?php print render($content['field_description']); ?>
+	<?php print render($content['field_description1']); ?>
 	</div>
 </div>
 
