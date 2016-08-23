@@ -29,6 +29,7 @@
 <div class="paragraph_bundle_full_image row">
 	<div class="col-md-12">
 	<?php print render($content['field_image']); ?>
+	<?php print render($content['field_image1']); ?>
 	</div>
 </div>
 

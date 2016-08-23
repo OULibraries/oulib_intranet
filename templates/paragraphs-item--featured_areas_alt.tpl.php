@@ -29,11 +29,13 @@
 <div class="paragraph_bundle_featured_alt row">
 	<div class="paragraphs_image col-md-2">
 	<?php print render($content['field_image']); ?>
+	<?php print render($content['field_image1']); ?>
 	</div>
 	
 	<div class="col-md-10">
 	<h2><?php print render($content['field_link']); ?></h2>
 	<?php print render($content['field_description']); ?>
+	<?php print render($content['field_description1']); ?>
 	</div>
 </div>
 
