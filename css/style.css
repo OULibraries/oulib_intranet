@@ -103,6 +103,18 @@ img{
 	float:left;
 }
 
+.pane-location-contact{ /*'Contact Us' box on individual location pages*/
+	background-color: #fff;
+	margin-top: 15px;
+	padding: 15px;
+	border-left: 1px solid #c9c9c9;
+	border-right: 1px solid #c9c9c9;
+	border-bottom: 1px solid #c9c9c9;
+	border-radius: 0 0 10px 10px;
+	border-top: 10px solid #660000;
+	box-shadow: 2px 2px 4px #eaeaea;
+	min-height: 230px;
+}
 
  /**
  * Global Footer
