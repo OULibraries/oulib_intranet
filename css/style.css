@@ -486,8 +486,13 @@ h1.page-header {
 
 h2 {
 	font-weight: bold;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	color: #767676;
+}
+
+h2.pane-title {
+	font-weight: bold;
+	font-size: 1.8em;
 	text-transform:uppercase;
 }
 
@@ -981,7 +986,7 @@ td.multi-day a{
 }
 
 .employee-profile-name{
-	 font-size: 2.75em;
+	 font-size: 2.2em;
 	 font-weight: bold;
 	 color: #274557;
 	 background-color: #d8ebf7;
