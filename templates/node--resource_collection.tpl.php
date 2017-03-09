@@ -87,8 +87,10 @@
 	
 	<p><strong>Description</strong>
 	<?php print render($content['field_resourcedescription']); ?></p>
+	<hr>
 	
-	<p><strong>Publication Year:</strong> <?php print render($content['field_publication_year']); ?></p>
+	<p><strong>Publication Year:</strong> 
+	<?php print render($content['field_publication_year']); ?></p>
 	
 	<p><strong>Link</strong>
 	<?php print render($content['field_link']); ?></p>
