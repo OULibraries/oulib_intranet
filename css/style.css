@@ -986,7 +986,7 @@ td.multi-day a{
 }
 
 .employee-profile-name{
-	 font-size: 2.2em;
+	 font-size: 1.7em;
 	 font-weight: bold;
 	 color: #274557;
 	 background-color: #d8ebf7;
@@ -1008,12 +1008,7 @@ td.multi-day a{
 	color: #848484;
 }
 
-.employee-profile-title{
-	 font-size: 1.7em;
-	 font-weight: bold;
-	 color: #282828;
-	 margin-bottom: 10px;
-}
+
 
 
 /**

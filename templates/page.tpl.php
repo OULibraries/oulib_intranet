@@ -198,7 +198,7 @@
 	<div class="row">
 		
 		<div class="col-md-4" style="padding-bottom:25px;">
-		<h2>LIBRARIES RESOURCES</h2>
+		<h2>Libraries Resources</h2>
 						
                         <ul>
 						
@@ -213,7 +213,7 @@
 
 		
 		<div class="col-md-4" style="padding-bottom:25px;">
-		<h2>CAMPUS RESOURCES</h2>
+		<h2>Campus Resources</h2>
 								<ul>
 
 									<li><a href="http://www.ou.edu/emergencypreparedness.html" title="Emergency Preparedness">Emergency Preparedness</a></li>
@@ -231,7 +231,7 @@
 
                         <ul>
 
-                            <li><a href="http://www.facebook.com/UniversityLibraries" class="facebook" title="facebook"></a></li>
+                            <li><a href="http://www.facebook.com/OULibraries" class="facebook" title="facebook"></a></li>
 
                             <li><a href="http://twitter.com/OU_Libraries" class="twitter" title="twitter"></a></li>
 
