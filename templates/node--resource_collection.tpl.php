@@ -89,21 +89,14 @@
 	<?php print render($content['field_resourcedescription']); ?></p>
 	<hr>
 	
-	<p><strong>Publication Year:</strong> 
-	<?php print render($content['field_publication_year']); ?></p>
-	
-	<p><strong>Link</strong>
-	<?php print render($content['field_link']); ?></p>
-	
-	<p><strong>File Upload</strong>
-	<?php print render($content['field_file_upload']); ?><br>
-	
-	<strong>Tags:</strong><?php print render($content['field_tag']); ?></p>
+	<p><?php print render($content['field_publication_year']); ?></p>
+	<p><?php print render($content['field_link']); ?></p>
+	<p><?php print render($content['field_file_upload']); ?></p>
+	<p><?php print render($content['field_tag']); ?></p>
 
 	</div>					
  </div>
   
-
 
   <div class="content"<?php print $content_attributes; ?>>
     <?php
