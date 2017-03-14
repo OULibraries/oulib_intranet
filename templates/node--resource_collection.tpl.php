@@ -89,10 +89,10 @@
 	<?php print render($content['field_resourcedescription']); ?></p>
 	<hr>
 	
-	<p><?php print render($content['field_publication_year']); ?></p>
-	<p><?php print render($content['field_link']); ?></p>
-	<p><?php print render($content['field_file_upload']); ?></p>
-	<p><?php print render($content['field_tag']); ?></p>
+	<?php print render($content['field_publication_year']); ?>
+	<?php print render($content['field_link']); ?>
+	<?php print render($content['field_file_upload']); ?>
+	<?php print render($content['field_tag']); ?>
 
 	</div>					
  </div>
