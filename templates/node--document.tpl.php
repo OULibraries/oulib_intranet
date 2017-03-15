@@ -86,12 +86,13 @@
 	<div class="col-md-12 content-border">
 	
 	<p><strong>Description</strong>
-	<?php print render($content['field_resourcedescription']); ?></p>
+	<?php print render($content['field_description']); ?></p>
 	<hr>
 	
-	<?php print render($content['field_publication_year']); ?><br>
-	<?php print render($content['field_link']); ?><br>
-	<?php print render($content['field_file_upload']); ?><br>
+	<?php print render($content['field_more_information']); ?>
+	<?php print render($content['field_department']); ?>
+	<?php print render($content['field_location']); ?>
+	<?php print render($content['field_file_upload']); ?>
 	<?php print render($content['field_tag']); ?>
 
 	</div>					
