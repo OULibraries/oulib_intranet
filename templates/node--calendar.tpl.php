@@ -99,7 +99,7 @@
 			<div>
 				<p> <?php print render($content['body']); ?></p>
 				<hr>
-				<p>	<?php print render($content['field_location']); ?></p>
+				<p>	<?php print render($content['field_unit_label']); ?></p>
 				<p>	<?php print render($content['field_room']); ?></p>
 			</div>
 		
