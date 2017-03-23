@@ -1077,9 +1077,15 @@ td.multi-day a{
 .current-number {
 	font-weight: 600;
 	text-align: center;
-	font-size: 155px;
+	font-size: 10em;
 	margin: 0;
 	color: #5a8ba8;
+}
+
+@media screen and (max-width: 600px) {
+.current-number {
+    font-size: 5em;
+  }
 }
 
 
