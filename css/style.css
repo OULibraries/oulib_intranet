@@ -1127,3 +1127,24 @@ td.multi-day a{
 	background-color: #f9f9f9;
 	border-radius: 5px;
 }
+
+
+#cas-login-form button {
+	color: white;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+	float: right;
+}
+
+#cas-login-form button:hover {
+	background-color: #286090;
+}
+
+.cas-login-area {
+	background-color: white;
+	border-radius: 0 0 6px 6px;
+}
+
+.region-login {
+	background-color: white;
+}
