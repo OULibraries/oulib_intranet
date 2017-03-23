@@ -83,11 +83,11 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
  
 <div class="row paragraph_bundle_featured_alt">
-	<div class="col-md-3 employee-profile-userphoto">
+	<div class="col-md-2 employee-profile-userphoto">
 	<?php print render($content['field_image']); ?>
 	</div>
 	
-	<div class="col-md-9">
+	<div class="col-md-10">
 	<h2><?php print render($content['field_recipient']); ?></h2>
 	<?php print render($content['field_description']); ?><br>
 	<?php print render($content['field_award_type']); ?>
@@ -98,7 +98,8 @@
   <div class="content"<?php print $content_attributes; ?>>
     <?php
       // We hide the comments and links now so that we can render them later.
-      hide($content['comments']);
+      hide($content['path']);
+	  hide($content['comments']);
       hide($content['links']);
       print render($content);
     ?>
