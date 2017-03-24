@@ -18,6 +18,9 @@ regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 regions[logo]			= 'Library Logo'
 regions[login]          = 'Login'
+regions[login-left]     = 'Login Left'
+regions[login-right]    = 'Login Right'
+regions[login-dots]    = 'Login Dots'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
