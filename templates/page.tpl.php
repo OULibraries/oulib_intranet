@@ -76,177 +76,207 @@
 
 
 <div id="top_regions">
-	<div class="container-fluid">
-		<div class="row">
-			<?php if (!empty($page['logo'])): ?>
-				<div class="col-md-9 col-sm-12 col-xs-12">
-					<?php print render($page['logo']); ?>
-				</div>
-			<?php endif; ?>
-			
-			<?php if (!empty($page['login'])): ?>
-				<div class="col-md-3 col-sm-12 col-xs-12">
-					<?php print render($page['login']); ?>	
-				</div>
-			<?php endif; ?>
+    <div class="container-fluid">
+        <div class="row">
+          <?php if (!empty($page['logo'])): ?>
+              <div class="col-md-8 col-sm-9 col-xs-8">
+                <?php print render($page['logo']); ?>
+              </div>
+          <?php endif; ?>
 
-		</div>
-	</div>
+            <div class="col-md-4 col-sm-3 col-xs-4">
+                <div class="login-area">
+                    <div class="col-md-5 col-sm-12 col-xs-12">
+                      <?php if (!empty($page['login-left'])): ?>
+                        <?php print render($page['login-left']); ?>
+                      <?php endif; ?>
+                    </div>
+                    <div class="col-md-3 hidden-sm hidden-xs">
+                      <?php if (!empty($page['login-dots'])): ?>
+                        <?php print render($page['login-dots']); ?>
+                      <?php endif; ?>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <?php if (!empty($page['login-right'])): ?>
+                        <?php print render($page['login-right']); ?>
+                      <?php endif; ?>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 
-
 <div class="carousel_inner hidden-xs">
-    <?php print render($page['header']); ?>
-  </div> <!-- /#Main Carousel -->
+  <?php print render($page['header']); ?>
+</div> <!-- /#Main Carousel -->
 
 
 <div class="menu">
 
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
-    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <?php if (!empty($primary_nav) && user_is_logged_in()): ?>
-            <?php print render($primary_nav); ?>
-        <?php endif; ?>  
-      </ul>   
-      
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
- 
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse"
+                 id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <?php if (!empty($primary_nav) && user_is_logged_in()): ?>
+                    <?php print render($primary_nav); ?>
+                  <?php endif; ?>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
 </div> <!-- /#menu -->
 
- 
 
 <div id="holder">
-<div class="container whitebg">
- 
+    <div class="container whitebg">
 
 
-<!-- body tag for stick footer -->
+        <!-- body tag for stick footer -->
 
-<div id="body">
+        <div id="body">
 
-<div class="main-container">
+            <div class="main-container">
 
-  <div class="row">
+                <div class="row">
 
-    <?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="col-sm-3" role="complementary">
-        <?php print render($page['sidebar_first']); ?>
-      </aside>  <!-- /#sidebar-first -->
-    <?php endif; ?>
+                  <?php if (!empty($page['sidebar_first'])): ?>
+                      <aside class="col-sm-3" role="complementary">
+                        <?php print render($page['sidebar_first']); ?>
+                      </aside>  <!-- /#sidebar-first -->
+                  <?php endif; ?>
 
-    <section<?php print $content_column_class; ?>>
-      <?php if (!empty($page['highlighted'])): ?>
-        <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
-      <?php endif; ?>
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-      <a id="main-content"></a>
-      <?php print render($title_prefix); ?>
-      <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
-      <?php if (!empty($tabs)): ?>
-        <?php print render($tabs); ?>
-      <?php endif; ?>
-      <?php if (!empty($page['help'])): ?>
-        <?php print render($page['help']); ?>
-      <?php endif; ?>
-      <?php if (!empty($action_links)): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-      <?php print render($page['content']); ?>
-    </section>
+                    <section<?php print $content_column_class; ?>>
+                      <?php if (!empty($page['highlighted'])): ?>
+                          <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+                      <?php endif; ?>
+                      <?php if (!empty($breadcrumb)): print $breadcrumb; endif; ?>
+                        <a id="main-content"></a>
+                      <?php print render($title_prefix); ?>
+                      <?php if (!empty($title)): ?>
+                          <h1 class="page-header"><?php print $title; ?></h1>
+                      <?php endif; ?>
+                      <?php print render($title_suffix); ?>
+                      <?php print $messages; ?>
+                      <?php if (!empty($tabs)): ?>
+                        <?php print render($tabs); ?>
+                      <?php endif; ?>
+                      <?php if (!empty($page['help'])): ?>
+                        <?php print render($page['help']); ?>
+                      <?php endif; ?>
+                      <?php if (!empty($action_links)): ?>
+                          <ul class="action-links"><?php print render($action_links); ?></ul>
+                      <?php endif; ?>
+                      <?php print render($page['content']); ?>
+                    </section>
 
-    <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-sm-3" role="complementary">
-        <?php print render($page['sidebar_second']); ?>
-      </aside>  <!-- /#sidebar-second -->
-    <?php endif; ?>
+                  <?php if (!empty($page['sidebar_second'])): ?>
+                      <aside class="col-sm-3" role="complementary">
+                        <?php print render($page['sidebar_second']); ?>
+                      </aside>  <!-- /#sidebar-second -->
+                  <?php endif; ?>
 
-  </div>
-  
-</div>
-</div>
+                </div>
 
-<!-- end body tag -->
-</div>
+            </div>
+        </div>
+
+        <!-- end body tag -->
+    </div>
 
 
+    <!-- footer -->
+    <div class="footer">
 
-<!-- footer -->
-<div class="footer">
+        <div class="container-fluid">
+            <div class="row">
 
-<div class="container-fluid">
-	<div class="row">
-		
-		<div class="col-md-4" style="padding-bottom:25px;">
-		<h2>Libraries Resources</h2>
-						
+                <div class="col-md-4" style="padding-bottom:25px;">
+                    <h2>Libraries Resources</h2>
+
+                    <ul>
+
+                        <li><a href="/alerts-archive" title="Alerts">Alerts</a>
+                        </li>
+
+                        <li>
+                            <a href="https://libraries.ou.edu/node/add/resource-problem"
+                               title="E-Resource Report Form">E-Resource Report
+                                Form</a></li>
+
+                        <li><a href="https://help.libraries.ou.edu/"
+                               title="Help.libraries.ou.edu">Library IT
+                                Support</a></li>
+
+                    </ul>
+                </div>
+
+
+                <div class="col-md-4" style="padding-bottom:25px;">
+                    <h2>Campus Resources</h2>
+                    <ul>
+
+                        <li>
+                            <a href="http://www.ou.edu/emergencypreparedness.html"
+                               title="Emergency Preparedness">Emergency
+                                Preparedness</a></li>
+
+                        <li><a href="http://hr.ou.edu/" title="Human Resources">Human
+                                Resources</a></li>
+
+                        <li><a href="https://www.ou.edu/ouit/help"
+                               title="IT Support">OU IT Support</a></li>
+
+                    </ul>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="social">
+
                         <ul>
-						
-							<li><a href="/alerts-archive" title="Alerts">Alerts</a></li>
-							
-							<li><a href="https://libraries.ou.edu/node/add/resource-problem" title="E-Resource Report Form">E-Resource Report Form</a></li>
 
-                            <li><a href="https://help.libraries.ou.edu/" title="Help.libraries.ou.edu">Library IT Support</a></li>
+                            <li><a href="http://www.facebook.com/OULibraries"
+                                   class="facebook" title="facebook"></a></li>
+
+                            <li><a href="http://twitter.com/OU_Libraries"
+                                   class="twitter" title="twitter"></a></li>
+
+                            <li>
+                                <a href="http://www.youtube.com/user/OULibraryOverview"
+                                   class="youtube" title="youtube"></a></li>
+
+                            <li><a href="https://www.instagram.com/oulibraries/"
+                                   class="instagram" title="instagram"></a></li>
 
                         </ul>
-		</div>
-
-		
-		<div class="col-md-4" style="padding-bottom:25px;">
-		<h2>Campus Resources</h2>
-								<ul>
-
-									<li><a href="http://www.ou.edu/emergencypreparedness.html" title="Emergency Preparedness">Emergency Preparedness</a></li>
-									
-									<li><a href="http://hr.ou.edu/" title="Human Resources">Human Resources</a></li>
-									
-									<li><a href="https://www.ou.edu/ouit/help" title="IT Support">OU IT Support</a></li>
-
-								</ul>
-		</div>
-		
-		
-		<div class="col-md-4">
-		<div class="social">
-
-                        <ul>
-
-                            <li><a href="http://www.facebook.com/OULibraries" class="facebook" title="facebook"></a></li>
-
-                            <li><a href="http://twitter.com/OU_Libraries" class="twitter" title="twitter"></a></li>
-
-                            <li><a href="http://www.youtube.com/user/OULibraryOverview" class="youtube" title="youtube"></a></li>
-
-                            <li><a href="https://www.instagram.com/oulibraries/" class="instagram" title="instagram"></a></li>
-
-                        </ul>
-		</div>
-		</div>
-	</div>
-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-</footer>
+        </footer>
 
-<!-- footer -->
-</div>
+        <!-- footer -->
+    </div>
