@@ -86,17 +86,17 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> content-border clearfix"<?php print $attributes; ?>>
 
   <div class="row">
-	<div class="col-md-2">
-		<div class="center">
-		 <!-- <div class="date"><?php print render($content['field_event_date']); ?></div> -->
-		 
+	<div class="col-md-3">
+		<div class="date-container center">
+		 <div class="date"><?php print render($content['field_event_date']); ?></div> 
 		</div> 
 		 
-		 <div style="width:160px;" class="center"><h2><?php print render($content['field_category']); ?></h2>
-		 <h3><?php print render($content['field_event_date']); ?></h3></div>
+		<!--  <div style="width:180px; padding:10px; color:#ffffff;" class="date-container center">
+		<h3><?php print render($content['field_event_date']); ?></h3></div>-->
+		 <div class="center"><h2><?php print render($content['field_category']); ?></h2></div>
 		
 	</div> 
-	<div class="col-md-10">
+	<div class="col-md-9">
 			
 			<div>
 			     
