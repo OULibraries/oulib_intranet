@@ -87,19 +87,23 @@
 
   <div class="row">
 	<div class="col-md-2">
-		<div class="date-container center">
-		 <div class="date"><?php print render($content['field_event_date']); ?></div>
+		<div class="center">
+		 <!-- <div class="date"><?php print render($content['field_event_date']); ?></div> -->
+		 
 		</div> 
 		 
-		 <div style="width:130px;" class="center"><h2><?php print render($content['field_category']); ?></h2></div>
+		 <div style="width:160px;" class="center"><h2><?php print render($content['field_category']); ?></h2>
+		 <h3><?php print render($content['field_event_date']); ?></h3></div>
 		
 	</div> 
 	<div class="col-md-10">
 			
 			<div>
+			     
 				<p> <?php print render($content['body']); ?></p>
-				<hr>
-				<p>	<?php print render($content['field_unit_label']); ?></p>
+				<hr> 
+				
+				<p><?php print render($content['field_unit_label']); ?></p>
 				<p>	<?php print render($content['field_room']); ?></p>
 			</div>
 		
