@@ -1035,14 +1035,14 @@ td.multi-day a{
 .date {
 	 width:80px;
 	 color:#ffffff; 
-	 font-size:3em; 
+	 font-size:1em; 
 	 font-weight:bold; 
 	 margin:auto;
 	 
 }
  
 .date-container {
-	 padding 10px 0px 10px 0px;
+	 padding: 10px 0px 10px 0px;
 	 text-align:center;
 	 border-bottom:10px solid #1a1919;
 	 background-color:#7b0909;
