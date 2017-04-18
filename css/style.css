@@ -1166,3 +1166,102 @@ td.multi-day a{
 	background-color: white;
 	padding: 10px;
 }
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	/*padding: 20px;*/
+	/*border: 1px solid #888;*/
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 940px; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close-modal {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	z-index: -1;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+	color: #CECECE;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-header {
+	padding: 2px 16px;
+	background-color: #660000;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.search-modal-ok {
+	/*padding: 2px;*/
+	margin: 6px;
+}
+
+/* Leaving Page popup */
+.ui-dialog-titlebar {
+	color: white;
+}
+
+.ui-widget-header {
+	background: #660000;
+}
+
+.ui-dialog-titlebar-close {
+	display: none;
+}
+
+.ui-dialog-buttonset button {
+	/*background: #660000;*/
+	color: white;
+	width: 50%;
+}
+
+.ui-widget-content {
+	border: none;
+}
+
+#ui-id-1, #ui-id-2 {
+	padding: 5px;
+}
+
+#avail-comps {
+	color: #569656;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+#unavail-comps {
+	color: #6D9DD0;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+#off-comps {
+	color: #979797;
+	font-weight: bold;
+	padding: 0 15px;
+}
