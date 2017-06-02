@@ -311,6 +311,8 @@ img{
 }
 
 
+
+
  /**
  * Navigation Bar
  */
@@ -422,6 +424,14 @@ img{
 
 .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus {
     color: #428bca;
+}
+
+.region-site-name {
+	margin:0px 50px 0px 30px;
+}
+
+.navbar-brand{
+	height: 50px;
 }
 
 @media (min-width: 768px) {
