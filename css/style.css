@@ -311,6 +311,8 @@ img{
 }
 
 
+
+
  /**
  * Navigation Bar
  */
@@ -319,6 +321,7 @@ img{
 	background-color:#3d3d3d;
 	font-size: 1.3em;
 	font-weight: bold;
+	text-transform: uppercase;
 	letter-spacing: .05em;
 	width: 100%;
 	border-radius: 0;
@@ -327,6 +330,34 @@ img{
 	-moz-box-shadow: 0px 5px 5px #bbb;
 	-webkit-box-shadow: 0px 5px 5px #bbb;
 	-o-box-shadow: 0px 5px 5px #bbb;
+}
+
+.navbar-brand{
+	font-size: 1.20em;
+	height: 60px;
+	color: #fff;
+	background-color: #1c1c1c;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.navbar-brand:hover{
+	color: #fff;
+	background-color: #1c1c1c;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	height: 60px;
 }
 
 .navbar-default {
@@ -422,6 +453,10 @@ img{
 
 .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus {
     color: #428bca;
+}
+
+.region-site-name {
+	margin:0px 50px 0px 30px;
 }
 
 @media (min-width: 768px) {

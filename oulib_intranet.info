@@ -21,6 +21,7 @@ regions[login]          = 'Login'
 regions[login-left]     = 'Login Left'
 regions[login-right]    = 'Login Right'
 regions[login-dots]    = 'Login Dots'
+regions[site-name]		= 'Site Name'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
