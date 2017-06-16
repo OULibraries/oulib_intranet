@@ -61,11 +61,11 @@
  * General Styles
  */
 
- .slick-dots li {
+.slick-dots li {
 	 display:none;
  }
  
- .date-display-range {
+.date-display-range {
 	 display:inline;
  }
  
@@ -122,6 +122,7 @@ img{
 
 
 
+
  /**
  * Global Footer
  */
@@ -163,6 +164,7 @@ img{
 	padding: 25px 0 10px 0;
   }
 }
+
 
 
 
@@ -266,7 +268,7 @@ img{
  * Locations
  */
 
- .location-description {
+.location-description {
 	margin-top: 5px;
 	margin-bottom: 15px;
 	border-right: 1px solid #cecece;
@@ -279,7 +281,7 @@ img{
 	box-shadow: 1px 1px 2px #e3e3e3;
  }
  
- .pane-location-contact{ /*'Contact Us' box on individual location pages*/
+.pane-location-contact{ /*'Contact Us' box on individual location pages*/
 	background-color: #fff;
 	padding: 15px;
 	border-left: 1px solid #c9c9c9;
@@ -320,6 +322,10 @@ img{
 
 .login a:hover{
 	color: #fff;
+}
+
+.logoutButton{
+	padding: 10px;
 }
 
 
