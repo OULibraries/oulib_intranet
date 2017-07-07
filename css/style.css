@@ -524,7 +524,7 @@ img{
 }
 
 .navbar-brand:hover{
-	color: #fff;
+	color: #fff !important;
 	background-color: #1c1c1c;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 	-webkit-transition: all 0.3s linear;
