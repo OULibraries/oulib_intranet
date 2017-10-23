@@ -61,6 +61,11 @@
  * General Styles
  */
 
+div.white a {
+color:#ffffff;
+}	
+	
+
 .slick-dots li {
 	 display:none;
  }
