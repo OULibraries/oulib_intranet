@@ -1250,6 +1250,22 @@ td.multi-day a{
 	padding: 10px;
 }
 
+.extra-mile{
+	min-height: 500px;
+}
+
+.prof-awards{
+	min-height: 560px;
+}
+
+.luce-luccock{
+	min-height: 500px;
+}
+
+.personnel-awards{
+	min-height: 600px;
+}
+
 
 
 /* The Modal (background) */
