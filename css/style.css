@@ -61,6 +61,11 @@
  * General Styles
  */
 
+div.white a {
+color:#ffffff;
+}	
+	
+
 .slick-dots li {
 	 display:none;
  }
@@ -524,7 +529,7 @@ img{
 }
 
 .navbar-brand:hover{
-	color: #fff;
+	color: #fff !important;
 	background-color: #1c1c1c;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 	-webkit-transition: all 0.3s linear;
@@ -1243,6 +1248,22 @@ td.multi-day a{
 	border-radius: 6px;
 	background-color: white;
 	padding: 10px;
+}
+
+.extra-mile{
+	min-height: 500px;
+}
+
+.prof-awards{
+	min-height: 560px;
+}
+
+.luce-luccock{
+	min-height: 500px;
+}
+
+.personnel-awards{
+	min-height: 600px;
 }
 
 
