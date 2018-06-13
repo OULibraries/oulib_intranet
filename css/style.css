@@ -1251,20 +1251,24 @@ td.multi-day a{
 }
 
 .extra-mile{
-	min-height: 500px;
+	min-height: 580px;
 }
 
 .prof-awards{
-	min-height: 560px;
+	min-height: 600px;
 }
 
 .luce-luccock{
-	min-height: 500px;
+	min-height: 580px;
 }
 
 .personnel-awards{
 	min-height: 600px;
+	padding-top: 15px;
 }
+
+.personnel-indiv{
+	min-height: 150px;
 
 
 
