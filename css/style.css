@@ -61,11 +61,16 @@
  * General Styles
  */
 
- .slick-dots li {
+div.white a {
+color:#ffffff;
+}	
+	
+
+.slick-dots li {
 	 display:none;
  }
  
- .date-display-range {
+.date-display-range {
 	 display:inline;
  }
  
@@ -116,6 +121,11 @@ img{
 	padding: 15px;
 }
 
+.center{
+	text-align: center;
+}
+
+
 
 
  /**
@@ -159,6 +169,7 @@ img{
 	padding: 25px 0 10px 0;
   }
 }
+
 
 
 
@@ -225,6 +236,7 @@ img{
 
 
 
+
 /**
 * Banner
 */
@@ -243,6 +255,7 @@ img{
 
 
 
+
  /**
  * Library Logo
  */
@@ -252,11 +265,15 @@ img{
     max-width: 100%;
 	padding-top: 10px;
 }
+
+
+
+
 /**
  * Locations
  */
 
- .location-description {
+.location-description {
 	margin-top: 5px;
 	margin-bottom: 15px;
 	border-right: 1px solid #cecece;
@@ -269,7 +286,7 @@ img{
 	box-shadow: 1px 1px 2px #e3e3e3;
  }
  
- .pane-location-contact{ /*'Contact Us' box on individual location pages*/
+.pane-location-contact{ /*'Contact Us' box on individual location pages*/
 	background-color: #fff;
 	padding: 15px;
 	border-left: 1px solid #c9c9c9;
@@ -285,6 +302,8 @@ img{
 	background-color:#f9f9f9;
 	Padding:15px;
 }
+
+
 
 
 /**
@@ -310,6 +329,10 @@ img{
 	color: #fff;
 }
 
+.logoutButton{
+	padding: 10px;
+}
+
 
 
 
@@ -319,45 +342,36 @@ img{
 
 .navbar {
 	background-color:#3d3d3d;
-	font-size: 1.3em;
+	font-size: 1.1em;
+	font-family: 'Droid Sans';
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 	width: 100%;
 	border-radius: 0;
 	border: 0px solid #3d3d3d;
-	box-shadow: 0px 5px 5px #bbb;
-	-moz-box-shadow: 0px 5px 5px #bbb;
-	-webkit-box-shadow: 0px 5px 5px #bbb;
+	box-shadow: 0px 5px 5px #bbb; 
+	-moz-box-shadow: 0px 5px 5px #bbb; 
+	-webkit-box-shadow: 0px 5px 5px #bbb; 
 	-o-box-shadow: 0px 5px 5px #bbb;
 }
 
-.navbar-brand{
-	font-size: 1.20em;
-	height: 60px;
-	color: #fff;
-	background-color: #1c1c1c;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	-webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear;
+.navbar ul.menu.nav{
+	line-height: 1.5em;
 }
 
-.navbar-brand:hover{
-	color: #fff;
-	background-color: #1c1c1c;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	-webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear;
+/* responsive text queries */
+@media screen and (max-width: 1165px) {
+.navbar {
+    font-size: 90%;
+  }
 }
 
-.navbar-default .navbar-brand {
-    color: #fff;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	height: 60px;
+@media screen and (max-width: 991px) {
+.navbar {
+    font-size: 11px;
+  }
+ 
 }
 
 .navbar-default {
@@ -387,12 +401,12 @@ img{
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
-
+		
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
     color: #ececec;
     background-color: #3d3d3d;
 }
-
+	
 .navbar-default .navbar-nav>li>a:hover {
     color: #ececec;
 	border-bottom: 10px solid #428bca;
@@ -443,6 +457,12 @@ img{
 	text-align: center;
 }
 
+.navbar-collapse img{
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+
 .navbar-toggle .icon-bar {
     color: #428bca;
 }
@@ -461,8 +481,6 @@ img{
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
         vertical-align: top;
     }
 
@@ -488,6 +506,36 @@ img{
     font-size: 11px;
   }
 
+}
+
+.navbar-default .navbar-brand{
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.navbar-brand{
+	font-family: 'Droid Sans';
+	font-size: 1.20em;
+	color: #fff;
+	background-color: #1c1c1c;
+	line-height: 20px;
+	height: 60px;
+	padding: 15px 15px 40px 15px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.navbar-brand:hover{
+	color: #fff !important;
+	background-color: #1c1c1c;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 
@@ -1201,6 +1249,28 @@ td.multi-day a{
 	background-color: white;
 	padding: 10px;
 }
+
+.extra-mile{
+	min-height: 580px;
+}
+
+.prof-awards{
+	min-height: 600px;
+}
+
+.luce-luccock{
+	min-height: 580px;
+}
+
+.personnel-awards{
+	min-height: 600px;
+	padding-top: 15px;
+}
+
+.personnel-indiv{
+	min-height: 150px;
+
+
 
 /* The Modal (background) */
 .modal {
