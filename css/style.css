@@ -125,8 +125,71 @@ img{
 	text-align: center;
 }
 
+/**
+* For the Help Tool Modal
+*/
 
+.glyph-wrap:before, .glyph-wrap {
+  float: right !important;
+  /*margin-top: -3% !important;*/
+  cursor: pointer;
+  color: #7fa5bc;
+}
 
+.shorten-top {
+  padding-top: 5px !important;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 55% auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 70%;
+  text-align: left;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #337ab7;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border: none;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+.pr-0{
+  padding-right: 0 !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.alt-width {
+  width: 1156px !important;
+}
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+.oh-panel {
+  min-height: 370px;
+}
 
  /**
  * Global Footer
@@ -1374,3 +1437,4 @@ td.multi-day a{
 #section-comps {
 	font-family: 'Droid Sans';
 }
+
